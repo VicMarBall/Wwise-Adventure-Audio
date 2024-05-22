@@ -1,6 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{6EBEAA86-0935-4B6F-9751-EDB7F03C9F64}" ShortID="191131060"/>
+				<Folder Name="Ambient" ID="{4149D5B2-8C49-4544-B420-0E2500B7F59B}" ShortID="654258156">
+					<ChildrenList>
+						<Folder Name="3D Emitters" ID="{34BEC4AE-5C0D-4D57-AE58-7504C46D4E79}" ShortID="321813718">
+							<ChildrenList>
+								<Folder Name="Continuous" ID="{F06D9975-AADD-4A68-86FC-9204500E9CD7}" ShortID="766002102">
+									<ChildrenList>
+										<Event Name="Ambient_Campfire_Play" ID="{A5D98780-B01F-4CBC-8509-D54147F90F17}">
+											<ChildrenList>
+												<Action Name="" ID="{FFE9777E-8527-47F3-B54D-88BD41C1BC19}" ShortID="33589919"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Campfire_Stop" ID="{4DBF03A0-4962-4DBA-B235-2EE8BFB9B843}">
+											<ChildrenList>
+												<Action Name="" ID="{CC98F872-BFCD-4C46-BE23-E1840AB19717}" ShortID="529425096"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Crystal_Hum" ID="{6C5AEA21-628A-4EDB-8F6C-BC1F124EC3F6}">
+											<ChildrenList>
+												<Action Name="" ID="{96D1CD04-8DF4-46D6-97D0-8AAF3DC68335}" ShortID="171552657"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Lava" ID="{181C368F-9C3F-4C6D-A250-46C97AE86439}">
+											<ChildrenList>
+												<Action Name="" ID="{75A407E9-4B0C-4047-9CC6-41F803323ED4}" ShortID="487448281"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_River" ID="{10890840-225A-4EA9-AF57-115AE70A120F}">
+											<ChildrenList>
+												<Action Name="" ID="{87FB090B-BBAA-44FD-868C-88551F58B10A}" ShortID="162839656"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Torch" ID="{772A21CF-1EDA-48E5-AC01-4C0F35420363}">
+											<ChildrenList>
+												<Action Name="" ID="{2A4A2E9C-E9C4-4721-9D09-5F26D870F3F5}" ShortID="910111297"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Waterfall" ID="{F0474006-0AE6-4BAF-8826-656FD504C19A}">
+											<ChildrenList>
+												<Action Name="" ID="{F2223AAB-7E24-44DD-B058-3DEA40CBD324}" ShortID="189919344"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Windmill" ID="{BC9C567F-92B3-4589-B9F1-BA6FAE5E836F}">
+											<ChildrenList>
+												<Action Name="" ID="{2CED6CBC-9AB6-4140-8B71-388F850EF0CC}" ShortID="238756639"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Door_DLCdoor_Open_Play" ID="{20F7CB94-FDCD-48C1-AFEA-3DA8B71D4DC5}">
+											<ChildrenList>
+												<Action Name="" ID="{8ED427A3-79F1-472F-AEEA-5B992AEC4A0D}" ShortID="265013030"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Door_DLCdoor_Open_Stop" ID="{2094258A-4274-4984-B52E-27AA86995FC7}">
+											<ChildrenList>
+												<Action Name="" ID="{D9491E62-D0D1-4EF5-B1F7-A3AEED95A8A7}" ShortID="680767337"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Music_ArcadeMachine_Play" ID="{02859120-1938-4B7C-B89B-A9EDA64C2570}">
+											<ChildrenList>
+												<Action Name="" ID="{E436CA52-220F-406C-8237-6664EE5B6D94}" ShortID="488644499"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Music_ArcadeMachine_Stop" ID="{B7FDE5A0-7E81-44BE-AE4D-50865C6C313A}">
+											<ChildrenList>
+												<Action Name="" ID="{DB9F3383-112D-4043-8082-FF55E3D07EDE}" ShortID="187138552"/>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="One-Shots" ID="{F62586EE-6FD8-41BC-A181-0ECD958F827B}" ShortID="425855899">
+									<ChildrenList>
+										<Event Name="Ambient_WaterDrop" ID="{98FB0A2C-58E3-4F83-AFF1-F4EAE7A3FC9F}">
+											<ChildrenList>
+												<Action Name="" ID="{C5FCC2F4-BC79-4A77-A09F-E7408CC25E5B}" ShortID="548035130"/>
+											</ChildrenList>
+										</Event>
+										<Event Name="Door_TempleDoor_Open_Play" ID="{4B19FD82-405C-4DD8-9B5B-308FF0D0A96F}">
+											<ChildrenList>
+												<Action Name="" ID="{1860F67D-133C-44B7-8346-71A3DB43FC90}" ShortID="1010642593"/>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Ambient_Region_Cave" ID="{136D766E-B54E-4A51-955C-0F00159B8FC8}">
+							<ChildrenList>
+								<Action Name="" ID="{0DB05B6F-40E9-4B0A-8BFF-750786B8DA27}" ShortID="629311889"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Desert" ID="{2F47A7AF-CE3A-4367-832E-440128938415}">
+							<ChildrenList>
+								<Action Name="" ID="{5C2D3DCA-D043-4C17-AC93-B2400B87AD77}" ShortID="506399109"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Dungeon" ID="{1B8D1497-B44D-483E-B33B-926E4ECCB91A}">
+							<ChildrenList>
+								<Action Name="" ID="{107B6C52-1180-4C53-9C90-DAFF0BCE8AF9}" ShortID="401883788"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_PineForest" ID="{67F82F11-5B94-4FFC-BAC9-2B9EC5D2DA74}">
+							<ChildrenList>
+								<Action Name="" ID="{7059ACE7-EB73-4926-A356-8C3ECC2EC7F9}" ShortID="667567552"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Village" ID="{CDF3A48E-B7DA-4065-860D-8DC6643BC642}">
+							<ChildrenList>
+								<Action Name="" ID="{827D59B3-4CE9-4016-8C6F-3425BC85E1E5}" ShortID="314856037"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Woodlands" ID="{CF5707FD-7A73-4705-8B47-F1D40088E07B}">
+							<ChildrenList>
+								<Action Name="" ID="{7CAC50FC-F1B4-4DB2-B032-0D21BD105EE8}" ShortID="883345177"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Destruction" ID="{8E26291C-21B6-48B8-B5CE-BE75319CC27D}" ShortID="461312106">
+					<ChildrenList>
+						<Event Name="Destruction_Container" ID="{EAF52C72-8D50-4AF4-A25A-5CE89FEF61F7}">
+							<ChildrenList>
+								<Action Name="" ID="{0ECCD529-8263-456E-8A69-0751648A9562}" ShortID="649873634"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Crystal_Destroy" ID="{5B04313A-4D43-4C91-996A-1FDAFB08BBC6}">
+							<ChildrenList>
+								<Action Name="" ID="{2DC62E1C-0F3F-44BC-B0C4-94FC013258F4}" ShortID="327962784"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Rock_Destroy" ID="{9D7D818C-6FEE-433F-96AB-DE20AC20BE9C}">
+							<ChildrenList>
+								<Action Name="" ID="{7F7E2BD3-7A15-4A02-B9C5-6E97EB031209}" ShortID="780486870"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{9699246F-7299-41E6-B4C0-A8E98BABF803}">
+							<ChildrenList>
+								<Action Name="" ID="{DCEB785E-DF63-4305-AEDE-C6C2434A6D78}" ShortID="304509349"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{D25F401A-5162-48B9-BCEF-5E6270358956}" ShortID="35555433">
+					<ChildrenList>
+						<Folder Name="Evil Spit Plant" ID="{4385923B-4DE9-4271-9326-A6D2FEF0B0DF}" ShortID="356429526"/>
+						<Folder Name="Evil Crawler" ID="{640A6B60-B87A-4563-97EB-6A7C2413BCBB}" ShortID="77025091"/>
+						<Folder Name="Evil Head" ID="{EE94B5D0-9FC6-46B4-A367-257922E531FF}" ShortID="467733698"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{86BD2C6A-204C-464B-8CF6-7BB79D8A0C96}" ShortID="248571703"/>
+				<Folder Name="Core" ID="{43354536-4808-4DDD-B30D-89F5122CB590}" ShortID="956313164"/>
+				<Folder Name="UI" ID="{FDDA7CC8-9A60-4728-AFF4-BACF895D4640}" ShortID="1014428460">
+					<ChildrenList>
+						<Folder Name="Menu" ID="{94DE8F6E-E897-421A-A72D-865CFFA0490D}" ShortID="703792623"/>
+						<Folder Name="Inventory" ID="{97288C4C-E367-4994-8C0B-155C7495F117}" ShortID="912534785">
+							<ChildrenList>
+								<Event Name="UI_Inventory_Roll" ID="{57CD6225-7B14-4E5F-8D5D-E55142CFE9DF}">
+									<ChildrenList>
+										<Action Name="" ID="{47F7750F-5A6A-47D5-9A60-437872CCCD82}" ShortID="425921509"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Inventory_Open" ID="{2348E7C8-58EA-48CC-A203-518C3B4C808C}">
+									<ChildrenList>
+										<Action Name="" ID="{07E4A04D-C70C-413A-A987-DE19D159EA4A}" ShortID="521183396"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_Inventory_Close" ID="{7A4C5BA8-C6F8-4335-A1F6-E7D5A4BF7028}">
+									<ChildrenList>
+										<Action Name="" ID="{D7BE282C-4F64-4967-AC87-4BFA70254AF3}" ShortID="198302355"/>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest Roll" ID="{499BD8D7-22D5-4BA7-ADE2-16D28BD89E65}" ShortID="1066559456">
+							<ChildrenList>
+								<Event Name="UI_QuestRoll_Show" ID="{695ED7A0-2D5A-4D38-9E07-C24A01AF9587}">
+									<ChildrenList>
+										<Action Name="" ID="{28262402-8CFE-426E-BED7-B250573C3EDE}" ShortID="294403142"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_QuestRoll_Open" ID="{5BCD7F79-C3B3-4FA1-8938-A325CCF9FADD}">
+									<ChildrenList>
+										<Action Name="" ID="{DC3D9236-EEA6-4A95-8C22-2FDE7B815430}" ShortID="836483061"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_QuestRoll_Close" ID="{FFE1218A-8CB9-402F-8FC2-DE5FDB31A9B7}">
+									<ChildrenList>
+										<Action Name="" ID="{1B1AC965-3175-4933-9BA6-210858D5D1A4}" ShortID="587946935"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="UI_QuestRoll_Hide" ID="{0DAC9B42-6CCD-4CCE-B7F7-ED928A72E7B5}">
+									<ChildrenList>
+										<Action Name="" ID="{6CC05DC9-CFDF-426B-823F-7069329D78FB}" ShortID="548890743"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="Quest_Complete" ID="{4BCE07A0-7BC6-4521-AA1D-7564628367DA}">
+									<ChildrenList>
+										<Action Name="" ID="{DCE9848E-C816-4709-9BFD-1312D4E9EC9F}" ShortID="902787195"/>
+									</ChildrenList>
+								</Event>
+								<Event Name="Quest_CompleteCollection" ID="{420C29F8-99D4-46FA-AC2A-F77BA3431AE4}">
+									<ChildrenList>
+										<Action Name="" ID="{5F691246-9CEB-4BFB-AACC-E2F49345E9E2}" ShortID="494257819"/>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
