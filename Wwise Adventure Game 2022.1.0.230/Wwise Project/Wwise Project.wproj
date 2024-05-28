@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="110" WwiseVersion="v2022.1.5" WwiseBuild="8242">
+<WwiseDocument Type="Project" SchemaVersion="110" WwiseVersion="v2022.1.13" WwiseBuild="8454">
 	<ProjectInfo>
 		<Project Name="Wwise Project" ID="{6D00BAA1-71ED-4DC0-BC52-6DD064764428}">
 			<Platforms>
@@ -902,6 +902,11 @@
 						<Property Name="LicenseKey" Type="string">
 							<ValueList>
 								<Value></Value>
+							</ValueList>
+						</Property>
+						<Property Name="LineEnding" Type="Uint16">
+							<ValueList>
+								<Value>0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxDangerousVirtualVoices" Type="Uint32">

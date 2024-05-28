@@ -90,12 +90,18 @@
 						</Folder>
 						<Event Name="Ambient_Region_Cave" ID="{136D766E-B54E-4A51-955C-0F00159B8FC8}">
 							<ChildrenList>
-								<Action Name="" ID="{0DB05B6F-40E9-4B0A-8BFF-750786B8DA27}" ShortID="629311889"/>
+								<Action Name="" ID="{0DB05B6F-40E9-4B0A-8BFF-750786B8DA27}" ShortID="629311889">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_cave_background_LP" ID="{1F2D9022-1C8C-4A23-8340-395884312CCF}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambient_Region_Desert" ID="{2F47A7AF-CE3A-4367-832E-440128938415}">
 							<ChildrenList>
-								<Action Name="" ID="{5C2D3DCA-D043-4C17-AC93-B2400B87AD77}" ShortID="506399109"/>
+								<Action Name="" ID="{FC8F697C-F454-4AC8-BAE5-86FAD1CB7892}" ShortID="637991894"/>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambient_Region_Dungeon" ID="{1B8D1497-B44D-483E-B33B-926E4ECCB91A}">
@@ -211,6 +217,16 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Stop_All" ID="{609B1ED6-006A-4EA6-977B-F13C56A71F65}">
+					<ChildrenList>
+						<Action Name="" ID="{A4CB7387-436B-4F7C-BC51-49D23192316F}" ShortID="373038205">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
