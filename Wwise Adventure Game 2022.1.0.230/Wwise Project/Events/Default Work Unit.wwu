@@ -130,17 +130,35 @@
 					<ChildrenList>
 						<Event Name="Destruction_Container" ID="{EAF52C72-8D50-4AF4-A25A-5CE89FEF61F7}">
 							<ChildrenList>
-								<Action Name="" ID="{0ECCD529-8263-456E-8A69-0751648A9562}" ShortID="649873634"/>
+								<Action Name="" ID="{0ECCD529-8263-456E-8A69-0751648A9562}" ShortID="649873634">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crate Destroy" ID="{5D2A67D5-79EE-4667-8CA6-39762C4FAD2E}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Destruction_Crystal_Destroy" ID="{5B04313A-4D43-4C91-996A-1FDAFB08BBC6}">
 							<ChildrenList>
-								<Action Name="" ID="{2DC62E1C-0F3F-44BC-B0C4-94FC013258F4}" ShortID="327962784"/>
+								<Action Name="" ID="{2DC62E1C-0F3F-44BC-B0C4-94FC013258F4}" ShortID="327962784">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Crystals_Destroy" ID="{6EC1211A-3281-414B-A437-76973CF58A58}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Destruction_Rock_Destroy" ID="{9D7D818C-6FEE-433F-96AB-DE20AC20BE9C}">
 							<ChildrenList>
-								<Action Name="" ID="{7F7E2BD3-7A15-4A02-B9C5-6E97EB031209}" ShortID="780486870"/>
+								<Action Name="" ID="{7F7E2BD3-7A15-4A02-B9C5-6E97EB031209}" ShortID="780486870">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destroy Rock" ID="{8F7D796A-D124-4A5F-A53C-80486E1C0F43}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{9699246F-7299-41E6-B4C0-A8E98BABF803}">
@@ -230,17 +248,35 @@
 							<ChildrenList>
 								<Event Name="UI_Inventory_Roll" ID="{57CD6225-7B14-4E5F-8D5D-E55142CFE9DF}">
 									<ChildrenList>
-										<Action Name="" ID="{47F7750F-5A6A-47D5-9A60-437872CCCD82}" ShortID="425921509"/>
+										<Action Name="" ID="{47F7750F-5A6A-47D5-9A60-437872CCCD82}" ShortID="425921509">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Inventory_Scroll" ID="{1B6AAB61-00DE-4C6B-AE20-737F7CF07C86}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="UI_Inventory_Open" ID="{2348E7C8-58EA-48CC-A203-518C3B4C808C}">
 									<ChildrenList>
-										<Action Name="" ID="{07E4A04D-C70C-413A-A987-DE19D159EA4A}" ShortID="521183396"/>
+										<Action Name="" ID="{07E4A04D-C70C-413A-A987-DE19D159EA4A}" ShortID="521183396">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Inventory_Open" ID="{836AE2FC-EF4E-4697-8143-D417446550BD}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="UI_Inventory_Close" ID="{7A4C5BA8-C6F8-4335-A1F6-E7D5A4BF7028}">
 									<ChildrenList>
-										<Action Name="" ID="{D7BE282C-4F64-4967-AC87-4BFA70254AF3}" ShortID="198302355"/>
+										<Action Name="" ID="{D7BE282C-4F64-4967-AC87-4BFA70254AF3}" ShortID="198302355">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_Inventory_Close" ID="{C5342CBB-044B-4DAD-820A-4043118E8AD5}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
@@ -254,12 +290,24 @@
 								</Event>
 								<Event Name="UI_QuestRoll_Open" ID="{5BCD7F79-C3B3-4FA1-8938-A325CCF9FADD}">
 									<ChildrenList>
-										<Action Name="" ID="{DC3D9236-EEA6-4A95-8C22-2FDE7B815430}" ShortID="836483061"/>
+										<Action Name="" ID="{DC3D9236-EEA6-4A95-8C22-2FDE7B815430}" ShortID="836483061">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_QuestRoll_Open" ID="{4A0BA66A-EC8A-4C25-84CD-130F6CCF2CD7}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="UI_QuestRoll_Close" ID="{FFE1218A-8CB9-402F-8FC2-DE5FDB31A9B7}">
 									<ChildrenList>
-										<Action Name="" ID="{1B1AC965-3175-4933-9BA6-210858D5D1A4}" ShortID="587946935"/>
+										<Action Name="" ID="{1B1AC965-3175-4933-9BA6-210858D5D1A4}" ShortID="587946935">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BAS_QuestRoll_Close" ID="{92C7755F-3C10-4BAF-B294-7766220C2F93}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="UI_QuestRoll_Hide" ID="{0DAC9B42-6CCD-4CCE-B7F7-ED928A72E7B5}">
