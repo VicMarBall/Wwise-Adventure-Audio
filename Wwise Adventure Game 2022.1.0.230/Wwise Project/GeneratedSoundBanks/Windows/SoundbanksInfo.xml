@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FAB7BD90-63F9-395E-0B67-6C23EA092665}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+				<GameParameter Id="215992295" Name="Player_Health"/>
+				<GameParameter Id="691349574" Name="Enemy_Music_EvilHead"/>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
+				<GameParameter Id="1744050084" Name="Magic_ChargeIntensity"/>
+				<GameParameter Id="1756231317" Name="InMenu_LowPass"/>
+				<GameParameter Id="2322571464" Name="Enemy_Music_EvilCrawler"/>
+				<GameParameter Id="2471758783" Name="Player_MovementSpeed"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
+				<GameParameter Id="3046587051" Name="Enemy_EvilHead_MovementSpeed"/>
+				<GameParameter Id="3481128293" Name="Enemy_Music_EviSpitPlant"/>
+				<GameParameter Id="3717892141" Name="CombatLevel"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1421251628" Name="Woodlands"/>
+						<State Id="1850388778" Name="Desert"/>
+						<State Id="3132368115" Name="WwizardHouse"/>
+						<State Id="3160623154" Name="Silent"/>
+						<State Id="3424056949" Name="Nowhere"/>
+						<State Id="3945572659" Name="Village"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2471758783" Name="Player_MovementSpeed">
+					<GameParameterRef Id="2471758783"/>
+					<Switches>
+						<Switch Id="340271938" Name="Walking"/>
+						<Switch Id="3863236874" Name="Running"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3251833556" Name="Player_Weapon_Type">
+					<Switches>
+						<Switch Id="490825222" Name="PickAxe"/>
+						<Switch Id="703486095" Name="Hammer"/>
+						<Switch Id="765201635" Name="Axe"/>
+						<Switch Id="2454616260" Name="Sword"/>
+						<Switch Id="3732162827" Name="Dagger"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3639591801" Name="Player_Pickup_ItemType">
+					<Switches>
+						<Switch Id="632653906" Name="PineCone"/>
+						<Switch Id="1183067778" Name="Key"/>
+						<Switch Id="1761501022" Name="Book"/>
+						<Switch Id="1941802987" Name="Mushroom"/>
+						<Switch Id="2416868231" Name="CrystalShard"/>
+						<Switch Id="2979801095" Name="EvilEssence"/>
+						<Switch Id="3062523257" Name="Misc"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4064446173" Name="Surface_Type">
+					<Switches>
+						<Switch Id="286660663" Name="Rubble"/>
+						<Switch Id="389757836" Name="Agent"/>
+						<Switch Id="442447909" Name="Barrel"/>
+						<Switch Id="582824249" Name="Leaves"/>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="1647104456" Name="Enemy_EvilCrawler"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2473969246" Name="Metal"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3065846598" Name="Enemy_EvilHead"/>
+						<Switch Id="3098439042" Name="Crate"/>
+						<Switch Id="3276966729" Name="Enemy_EvilSpitPlant"/>
+						<Switch Id="3444057113" Name="Crystal"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{433E0AB0-9A82-A510-47C2-DA6C9BFA5DBE}">
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<Media>
+				<File Id="529590542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_cave_background_LP_10C4C929.wem</CachePath>
+				</File>
+				<File Id="584741371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
+					<CachePath>SFX/Destruction/BAS_Crystals_Destroy_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1331382810" Name="Ambient_Region_Cave">
+					<MediaRefs>
+						<MediaRef Id="529590542"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy">
+					<MediaRefs>
+						<MediaRef Id="584741371"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BA4D0F1F-B86C-B09A-F3B3-8727659326F0}</FileHash>
+</SoundBanksInfo>
