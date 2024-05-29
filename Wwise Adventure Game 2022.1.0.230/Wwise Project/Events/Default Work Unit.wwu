@@ -221,7 +221,17 @@
 						</Event>
 						<Event Name="Pickup_ItemType" ID="{C502ECFD-D132-45C9-8073-F3EDC9ACC3D7}"/>
 						<Event Name="Pickup_Coins" ID="{7954EC60-493C-4FF1-A30F-7EAB0D52B335}"/>
-						<Event Name="Player_WeaponImpact" ID="{11E67018-A9DC-4003-8916-A17AA6955E61}"/>
+						<Event Name="Player_WeaponImpact" ID="{11E67018-A9DC-4003-8916-A17AA6955E61}">
+							<ChildrenList>
+								<Action Name="" ID="{F881F566-34A4-4DC3-B430-EE49BC32CBB6}" ShortID="416448708">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon Impact" ID="{5313D414-C688-4E55-B312-38697F430A57}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Player_WeaponSwing" ID="{503BAA71-88C4-4C37-A655-6E5F4F2984E0}"/>
 						<Event Name="Player_Health" ID="{58CE3D87-F04D-4249-ACE2-7C4AE5322FA2}"/>
 					</ChildrenList>
