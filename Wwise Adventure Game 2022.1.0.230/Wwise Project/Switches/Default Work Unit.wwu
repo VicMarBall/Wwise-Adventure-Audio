@@ -20,6 +20,7 @@
 						<Switch Name="Stone" ID="{2086E4EB-AA45-403D-B225-BACFE5896ED1}"/>
 						<Switch Name="Water" ID="{6EB6C446-4450-485A-988D-6AF6CAEF78D7}"/>
 						<Switch Name="Wood" ID="{06CFA34F-CAF8-4DB6-9A76-D5F54B561929}"/>
+						<Switch Name="Rubble" ID="{DE127ACA-2A06-46E2-A1B1-B606D19CF983}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Player_Pickup_ItemType" ID="{9279FCF0-B4B5-46CD-B31E-A1E1D4D7B5FF}">
@@ -41,6 +42,40 @@
 						<Switch Name="PickAxe" ID="{A5B8CD0F-72CE-41D3-975E-A056879D0ABC}"/>
 						<Switch Name="Sword" ID="{EBEE95F5-B8E2-4560-A506-508E5BD3523E}"/>
 					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{41359BE9-1FB2-4A75-A217-F04160564BB7}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Walking" ID="{DC8F5486-2166-4E4F-ABE9-02F1A6D0077D}"/>
+						<Switch Name="Running" ID="{0B0128BA-6E3F-46CC-B7F0-28FAC4197AC6}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{00F0E04A-4DD2-4F7A-A173-69CA9132B83F}"/>
+						<Curve Name="" ID="{C7A0FF7C-82CA-40C0-8868-22C405F10EC4}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
