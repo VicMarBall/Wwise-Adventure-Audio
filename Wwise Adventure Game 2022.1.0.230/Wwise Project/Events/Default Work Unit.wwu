@@ -133,7 +133,7 @@
 								<Action Name="" ID="{0ECCD529-8263-456E-8A69-0751648A9562}" ShortID="649873634">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Crate Destroy" ID="{5D2A67D5-79EE-4667-8CA6-39762C4FAD2E}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+											<ObjectRef Name="Destruction Crate" ID="{5D2A67D5-79EE-4667-8CA6-39762C4FAD2E}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -144,7 +144,7 @@
 								<Action Name="" ID="{2DC62E1C-0F3F-44BC-B0C4-94FC013258F4}" ShortID="327962784">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BAS_Crystals_Destroy" ID="{6EC1211A-3281-414B-A437-76973CF58A58}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+											<ObjectRef Name="Destruction Crystal" ID="{C3CA9DDB-79DF-47C8-9743-0394A8A9E371}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -155,7 +155,7 @@
 								<Action Name="" ID="{7F7E2BD3-7A15-4A02-B9C5-6E97EB031209}" ShortID="780486870">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Destroy Rock" ID="{8F7D796A-D124-4A5F-A53C-80486E1C0F43}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+											<ObjectRef Name="Destruction Rock" ID="{8F7D796A-D124-4A5F-A53C-80486E1C0F43}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -163,7 +163,13 @@
 						</Event>
 						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{9699246F-7299-41E6-B4C0-A8E98BABF803}">
 							<ChildrenList>
-								<Action Name="" ID="{DCEB785E-DF63-4305-AEDE-C6C2434A6D78}" ShortID="304509349"/>
+								<Action Name="" ID="{DCEB785E-DF63-4305-AEDE-C6C2434A6D78}" ShortID="304509349">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Volcanic Boulder" ID="{99C75E58-34B0-4E94-8816-2E4E6E3C4EBB}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
