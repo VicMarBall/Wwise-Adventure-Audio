@@ -97,6 +97,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{2B7FA0A7-EF39-4150-B604-CE9E39596406}" ShortID="37219627">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{B42C87B2-9838-4354-B641-CB436EAE7D69}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambient_Region_Desert" ID="{2F47A7AF-CE3A-4367-832E-440128938415}">
@@ -115,6 +122,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{14ECA2BC-B292-4A07-AB69-1B44408A7532}" ShortID="283968841">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desert_120BPM_4_4_L8M_P0" ID="{E93D451F-C7E6-4D9D-A02C-0B059418E7F7}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambient_Region_Dungeon" ID="{1B8D1497-B44D-483E-B33B-926E4ECCB91A}">
@@ -123,6 +137,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{59EAC36D-B45D-4DCE-A5D9-C72EE994BABF}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A39CEAF3-21FC-4A84-9479-999FE7F60555}" ShortID="833070780">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{D73400E0-2467-4960-AB97-89C371FA672F}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -155,6 +176,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{774BC8A9-8EE9-43BF-9ADF-369AA0692B07}" ShortID="327016924">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Village_120BPM_4_4_L8M_P1M" ID="{F400515D-E966-4459-A4C3-69A95D24DBF3}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambient_Region_Woodlands" ID="{CF5707FD-7A73-4705-8B47-F1D40088E07B}">
@@ -162,14 +190,14 @@
 								<Action Name="" ID="{7CAC50FC-F1B4-4DB2-B032-0D21BD105EE8}" ShortID="883345177">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BAS_amb_forest_day_background_loop_01" ID="{C34CF2AF-676A-41A9-8535-2A1C55DE3B1A}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+											<ObjectRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{DA8995BD-532A-4770-ADAE-CE111A66A04C}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{56F8A8A5-7B68-47C4-B793-2FA94D210440}" ShortID="830311409">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+											<ObjectRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{4711D927-0668-4C3B-9E08-B35F67636179}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
