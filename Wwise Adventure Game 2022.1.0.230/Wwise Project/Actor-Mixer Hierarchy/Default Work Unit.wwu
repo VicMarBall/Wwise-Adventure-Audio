@@ -6,6 +6,9 @@
 				<Folder Name="Ambient_Background" ID="{87D9C784-AF4E-4481-8C28-03447E2C0F6E}" ShortID="438786104">
 					<ChildrenList>
 						<Sound Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}" ShortID="774034128">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -23,11 +26,54 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{BE48C167-DBF7-4AB2-88E0-294AEAE88CBE}" ShortID="680943038">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A0A93769-654C-42BB-827D-059E19F4BCB3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{A45AF5F5-2B8F-4944-B95E-A38CA5ED496E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="amb_forest_night_background_loop_04" ID="{198EB1D0-5870-42F9-9663-0B31CD0E1D99}" ShortID="150939706">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -45,11 +91,53 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{17906C1B-3610-4B21-9A47-9BB972B7A66A}" ShortID="418643638">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{165637F3-34AA-4FA0-808E-082EDEA5B1F4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="amb_forest_night_background_loop_04" ID="{61B090B4-C356-4B6C-BEBA-8BB24C204E9B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_cave_background_LP" ID="{1F2D9022-1C8C-4A23-8340-395884312CCF}" ShortID="938940483">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -72,6 +160,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_desert_day_background_loop_01" ID="{F39D764F-7F5B-42AD-B76C-4A40673FC3B7}" ShortID="563904972">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -89,11 +180,54 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{138BD21A-90EC-4265-8536-80B2A2DEC4A6}" ShortID="239708303">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{D015E332-C782-46FB-9E6B-3D351AD90BE2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_desert_day_background_loop_01" ID="{BCD24564-CB38-4C84-B87A-9E2818C16FEA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_desert_night_background_loop_01" ID="{3635EE97-1683-4D31-9E7B-1E023DAFD38D}" ShortID="38378744">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -111,11 +245,54 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5A3D5573-C5F0-4DF7-98CA-12B2EFF2949B}" ShortID="257405264">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{FFFA1A41-3E20-499C-B9F2-256F01EBC115}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_desert_night_background_loop_01" ID="{B4DCBE3D-D71A-4639-8E13-8E9D5272B006}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{59EAC36D-B45D-4DCE-A5D9-C72EE994BABF}" ShortID="312889829">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -138,6 +315,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{C34CF2AF-676A-41A9-8535-2A1C55DE3B1A}" ShortID="59824044">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -155,11 +335,53 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{A3FD454E-DE19-4372-86C8-C9E47293A27B}" ShortID="479319167">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{13B7639D-067D-4236-83A7-6F0EC6DEDCEB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{639A49E6-BA9B-4F9C-B7A5-6B0D0C49C763}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{378E777B-3836-4425-BAF5-61338B35B685}" ShortID="204221126">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -182,6 +404,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_village_day_background_loop_01" ID="{B8D46CD2-C925-49F5-851D-2D1121D35C81}" ShortID="647786439">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -199,11 +424,54 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{38B183BF-CC60-424C-A997-BE275B7DA2E1}" ShortID="534839262">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{32300F99-4D63-45A1-AB0B-255528394151}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{617C5C2A-0CBE-43DC-BFC3-08741A4E429D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_amb_village_night_background_loop_01" ID="{F48A6F9F-E483-4950-AE99-42B3B2F0350F}" ShortID="974905016">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -221,6 +489,46 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{1BC92B14-F049-4A5D-9530-5BF753A1C5AD}" ShortID="799250057">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{B23BE3FA-6660-4D32-BD23-382602D45663}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{9578E89A-AA56-423C-845E-7240475B2B0A}" Platform="Linked"/>
 							</ActiveSourceList>
