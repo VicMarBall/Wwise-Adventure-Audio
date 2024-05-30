@@ -6119,14 +6119,9 @@
 														<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{639A49E6-BA9B-4F9C-B7A5-6B0D0C49C763}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{378E777B-3836-4425-BAF5-61338B35B685}" ShortID="204221126">
+												<Sound Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}" ShortID="774034128">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-10</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -6137,23 +6132,23 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A446FD56-0D40-468B-B5DD-5E5474FFA42C}">
+														<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{A45AF5F5-2B8F-4944-B95E-A38CA5ED496E}">
 															<Language>SFX</Language>
-															<AudioFile>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+															<AudioFile>Ambient_Background\amb_forest_night_background_loop_02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="325139258"/>
+																<MediaID ID="279769644"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A446FD56-0D40-468B-B5DD-5E5474FFA42C}" Platform="Linked"/>
+														<ActiveSource Name="amb_forest_night_background_loop_02" ID="{A45AF5F5-2B8F-4944-B95E-A38CA5ED496E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="BAS_amb_pineforest_night_background_loop_01" ID="{378E777B-3836-4425-BAF5-61338B35B685}"/>
+														<ItemRef Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="BAS_amb_forest_day_background_loop_01" ID="{C34CF2AF-676A-41A9-8535-2A1C55DE3B1A}"/>
@@ -6169,15 +6164,20 @@
 													<Grouping>
 														<SwitchRef Name="Night" ID="{3B2BA2B7-4FB9-4CFE-96D4-F4D68E92E82B}"/>
 														<ItemList>
-															<ItemRef Name="BAS_amb_pineforest_night_background_loop_01" ID="{378E777B-3836-4425-BAF5-61338B35B685}"/>
+															<ItemRef Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>
 											</GroupingInfo>
 										</SwitchContainer>
-										<Sound Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}" ShortID="774034128">
+										<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{378E777B-3836-4425-BAF5-61338B35B685}" ShortID="204221126">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -6188,16 +6188,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{A45AF5F5-2B8F-4944-B95E-A38CA5ED496E}">
+												<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A446FD56-0D40-468B-B5DD-5E5474FFA42C}">
 													<Language>SFX</Language>
-													<AudioFile>Ambient_Background\amb_forest_night_background_loop_02.wav</AudioFile>
+													<AudioFile>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="279769644"/>
+														<MediaID ID="325139258"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_forest_night_background_loop_02" ID="{A45AF5F5-2B8F-4944-B95E-A38CA5ED496E}" Platform="Linked"/>
+												<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{A446FD56-0D40-468B-B5DD-5E5474FFA42C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
