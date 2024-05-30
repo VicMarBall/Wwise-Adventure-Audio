@@ -14,7 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENT_REGION_CAVE = 1331382810U;
+        static const AkUniqueID AMBIENT_REGION_DESERT = 3408705206U;
+        static const AkUniqueID AMBIENT_REGION_PINEFOREST = 808171864U;
+        static const AkUniqueID AMBIENT_REGION_VILLAGE = 2752753183U;
+        static const AkUniqueID AMBIENT_REGION_WOODLANDS = 1049266392U;
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
+        static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
     } // namespace EVENTS
 
     namespace STATES
@@ -134,6 +139,11 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID DESERT = 1850388778U;
+        static const AkUniqueID PINEFOREST = 2482365692U;
+        static const AkUniqueID TITLESCREEN = 152105657U;
+        static const AkUniqueID VILLAGE = 3945572659U;
+        static const AkUniqueID WOODLANDS = 1421251628U;
     } // namespace BANKS
 
     namespace BUSSES
