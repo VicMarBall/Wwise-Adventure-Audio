@@ -444,6 +444,13 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Music" ID="{818E6910-E1C0-4CDA-B473-619594DFD9A9}" ShortID="257926712">
+					<ChildrenList>
+						<Event Name="Music_TitleScreen" ID="{DD89969A-589A-409C-A44A-6F2135D15813}"/>
+						<Event Name="Music_Credits" ID="{71ECF48A-EC28-49FB-85C3-C09415BE9D3A}"/>
+						<Event Name="Music_Region" ID="{C860304F-39E5-4E27-AB61-19990A28F06F}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
