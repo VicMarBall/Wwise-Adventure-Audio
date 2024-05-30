@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient\Ambient_Region_Village	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	127682777	BAS_amb_village_night_background_loop_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_night_background_loop_01		23457888
+	536883391	Village_120BPM_4_4_L8M_P1M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Village_120BPM_4_4_L8M_P1M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Explore\Village_120BPM_4_4_L8M_P1M		4224160
+	966129763	BAS_amb_village_day_background_loop_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_day_background_loop_01		28801120
+
