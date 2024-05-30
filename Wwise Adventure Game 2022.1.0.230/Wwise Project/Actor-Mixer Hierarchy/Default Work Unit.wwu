@@ -545,13 +545,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BAS_WaterDrops_01" ID="{1E7824BA-BC56-4CAE-B056-6BC2000815DB}" ShortID="16512859">
-							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
@@ -8992,7 +8985,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
 										</Reference>
 										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="None" ID="{68E8E2D9-24BD-4C24-87BE-73C37ECB056C}" WorkUnitID="{E5274421-2A28-4012-AABF-F14DC66A6897}"/>
+											<ObjectRef Name="Nowhere" ID="{3EB9C700-7D78-4F4A-90E0-5A48F3D084FE}" WorkUnitID="{E5274421-2A28-4012-AABF-F14DC66A6897}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>

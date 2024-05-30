@@ -45,6 +45,9 @@
 										<Event Name="Ambient_River" ID="{10890840-225A-4EA9-AF57-115AE70A120F}">
 											<ChildrenList>
 												<Action Name="" ID="{87FB090B-BBAA-44FD-868C-88551F58B10A}" ShortID="162839656">
+													<PropertyList>
+														<Property Name="FadeInCurve" Type="int16" Value="6"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BAS_Water_River" ID="{120C4BC2-12CA-4467-911E-91EFEF27DAC7}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -67,6 +70,9 @@
 										<Event Name="Ambient_Waterfall" ID="{F0474006-0AE6-4BAF-8826-656FD504C19A}">
 											<ChildrenList>
 												<Action Name="" ID="{F2223AAB-7E24-44DD-B058-3DEA40CBD324}" ShortID="189919344">
+													<PropertyList>
+														<Property Name="FadeInCurve" Type="int16" Value="6"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BAS_Waterfall" ID="{92F5E687-CF17-4824-8377-F638190EF1DB}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -120,6 +126,9 @@
 										<Event Name="Ambient_WaterDrop" ID="{98FB0A2C-58E3-4F83-AFF1-F4EAE7A3FC9F}">
 											<ChildrenList>
 												<Action Name="" ID="{C5FCC2F4-BC79-4A77-A09F-E7408CC25E5B}" ShortID="548035130">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="50"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BAS_WaterDrops_01" ID="{1E7824BA-BC56-4CAE-B056-6BC2000815DB}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -140,6 +149,9 @@
 						<Event Name="Ambient_Region_Cave" ID="{136D766E-B54E-4A51-955C-0F00159B8FC8}">
 							<ChildrenList>
 								<Action Name="" ID="{0DB05B6F-40E9-4B0A-8BFF-750786B8DA27}" ShortID="629311889">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BAS_amb_cave_background_LP" ID="{1F2D9022-1C8C-4A23-8340-395884312CCF}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -158,6 +170,9 @@
 						<Event Name="Ambient_Region_Desert" ID="{2F47A7AF-CE3A-4367-832E-440128938415}">
 							<ChildrenList>
 								<Action Name="" ID="{14ECA2BC-B292-4A07-AB69-1B44408A7532}" ShortID="283968841">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Desert_120BPM_4_4_L8M_P0" ID="{E93D451F-C7E6-4D9D-A02C-0B059418E7F7}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -176,6 +191,9 @@
 						<Event Name="Ambient_Region_Dungeon" ID="{1B8D1497-B44D-483E-B33B-926E4ECCB91A}">
 							<ChildrenList>
 								<Action Name="" ID="{107B6C52-1180-4C53-9C90-DAFF0BCE8AF9}" ShortID="401883788">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{59EAC36D-B45D-4DCE-A5D9-C72EE994BABF}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -194,6 +212,9 @@
 						<Event Name="Ambient_Region_PineForest" ID="{67F82F11-5B94-4FFC-BAC9-2B9EC5D2DA74}">
 							<ChildrenList>
 								<Action Name="" ID="{6B3E7D0C-D781-4712-900D-50EB0288A519}" ShortID="983446118">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Forest" ID="{365968E1-0005-44E5-8C9E-0C8841449A20}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -205,6 +226,9 @@
 						<Event Name="Ambient_Region_Village" ID="{CDF3A48E-B7DA-4065-860D-8DC6643BC642}">
 							<ChildrenList>
 								<Action Name="" ID="{6E0D91A1-4C77-4940-8659-BC76F8C583F4}" ShortID="99724640">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Village" ID="{8DF65B38-3F08-44B8-81B2-9CCD04EAC2F5}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
@@ -216,6 +240,9 @@
 						<Event Name="Ambient_Region_Woodlands" ID="{CF5707FD-7A73-4705-8B47-F1D40088E07B}">
 							<ChildrenList>
 								<Action Name="" ID="{B44C8517-D197-42B7-98DE-B1DA449CE747}" ShortID="640587896">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="amb_forest_night_background_loop_04" ID="{198EB1D0-5870-42F9-9663-0B31CD0E1D99}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
