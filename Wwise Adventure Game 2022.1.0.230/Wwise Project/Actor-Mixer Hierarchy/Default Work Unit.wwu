@@ -264,46 +264,6 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists>
-																		<ObjectList Name="RTPC">
-																			<Reference>
-																				<Local>
-																					<RTPC Name="" ID="{46EB1A36-C900-4E59-8120-E20F7939BFFE}" ShortID="211473429">
-																						<PropertyList>
-																							<Property Name="PropertyName" Type="string" Value="Volume"/>
-																						</PropertyList>
-																						<ReferenceList>
-																							<Reference Name="ControlInput">
-																								<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
-																							</Reference>
-																							<Reference Name="Curve">
-																								<Custom>
-																									<Curve Name="" ID="{B5C7DBE0-F0C8-464B-AEF5-19E53B7887FE}">
-																										<PropertyList>
-																											<Property Name="Flags" Type="int32" Value="3"/>
-																										</PropertyList>
-																										<PointList>
-																											<Point>
-																												<XPos>0</XPos>
-																												<YPos>0</YPos>
-																												<Flags>5</Flags>
-																												<SegmentShape>SCurve</SegmentShape>
-																											</Point>
-																											<Point>
-																												<XPos>24</XPos>
-																												<YPos>-200</YPos>
-																												<Flags>37</Flags>
-																											</Point>
-																										</PointList>
-																									</Curve>
-																								</Custom>
-																							</Reference>
-																						</ReferenceList>
-																					</RTPC>
-																				</Local>
-																			</Reference>
-																		</ObjectList>
-																	</ObjectLists>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{8BFA1BDA-A0B6-4A7A-A2BC-BF8FB9254DBB}" Platform="Linked"/>
 																	</ActiveSourceList>
@@ -329,46 +289,6 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists>
-																		<ObjectList Name="RTPC">
-																			<Reference>
-																				<Local>
-																					<RTPC Name="" ID="{C52EABEC-1B17-4796-B162-171977ED39C6}" ShortID="118946628">
-																						<PropertyList>
-																							<Property Name="PropertyName" Type="string" Value="Volume"/>
-																						</PropertyList>
-																						<ReferenceList>
-																							<Reference Name="ControlInput">
-																								<ObjectRef Name="Time_of_Day" ID="{51F87625-9491-4A1F-95D6-AD721382DFD8}" WorkUnitID="{FCAC8D06-3885-4D7C-BEAA-903067297C57}"/>
-																							</Reference>
-																							<Reference Name="Curve">
-																								<Custom>
-																									<Curve Name="" ID="{B4FED65D-58B8-4EFD-8FE7-962C1FCED18E}">
-																										<PropertyList>
-																											<Property Name="Flags" Type="int32" Value="3"/>
-																										</PropertyList>
-																										<PointList>
-																											<Point>
-																												<XPos>0</XPos>
-																												<YPos>-200</YPos>
-																												<Flags>5</Flags>
-																												<SegmentShape>SCurve</SegmentShape>
-																											</Point>
-																											<Point>
-																												<XPos>24</XPos>
-																												<YPos>0</YPos>
-																												<Flags>37</Flags>
-																											</Point>
-																										</PointList>
-																									</Curve>
-																								</Custom>
-																							</Reference>
-																						</ReferenceList>
-																					</RTPC>
-																				</Local>
-																			</Reference>
-																		</ObjectList>
-																	</ObjectLists>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{E0F6A5F8-8802-4A8C-8881-56FDE2F4D8F5}" Platform="Linked"/>
 																	</ActiveSourceList>
