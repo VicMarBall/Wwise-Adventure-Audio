@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID DESTRUCTION_ROCK_DESTROY = 1999886838U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
         static const AkUniqueID MUSIC_CREDITS = 1882971781U;
+        static const AkUniqueID MUSIC_REGION = 3741135221U;
         static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_WEAPONIMPACT = 3695342915U;

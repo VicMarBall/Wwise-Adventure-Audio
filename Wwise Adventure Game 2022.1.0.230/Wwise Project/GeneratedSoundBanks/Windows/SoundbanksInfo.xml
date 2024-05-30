@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{CE1EC006-6653-0BD7-B4DC-65856B216E17}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{705C9D06-1A05-AB83-D2F2-0B3ADF2BAF0F}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -129,6 +129,10 @@
 					<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_04.wav</ShortName>
 					<CachePath>SFX/Footsteps/Walk/Rubble/BAS_Player_Footstep_rubble_walk_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="244999501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Nowhere_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Nowhere_120BPM_4_4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="246552019" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destruction\BAS_Crate_Destroy_02.wav</ShortName>
 					<CachePath>SFX/Destruction/BAS_Crate_Destroy_02_10C4C929.wem</CachePath>
@@ -153,9 +157,17 @@
 					<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_02.wav</ShortName>
 					<CachePath>SFX/Footsteps/Run/Sand/BAS_Player_Footstep_sand_run_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="283089700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Desert_120BPM_4_4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="289334641" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destruction\BAS_Destroy_Rock_02.wav</ShortName>
 					<CachePath>SFX/Destruction/BAS_Destroy_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="299785692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Cave_Silent_WwizardHouse_120BPM_L8M_P0_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="318054407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_03.wav</ShortName>
@@ -245,9 +257,17 @@
 					<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Dirt.wav</ShortName>
 					<CachePath>SFX/Impacts/BAS_Impact_Axe_SurfaceType_Dirt_10C4C929.wem</CachePath>
 				</File>
+				<File Id="536883391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Village_120BPM_4_4_L8M_P1M_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="544992794" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_02.wav</ShortName>
 					<CachePath>SFX/Footsteps/Walk/Stone/BAS_Player_Footstep_stone_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="546426395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\TitleScreen_120BPM_4_4_L41M_P2M.wav</ShortName>
+					<CachePath>SFX/Music/TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem</CachePath>
 				</File>
 				<File Id="550268365" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_05.wav</ShortName>
@@ -309,6 +329,10 @@
 					<ShortName>Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_02.wav</ShortName>
 					<CachePath>SFX/Footsteps/Walk/Wood/BAS_Player_Footstep_wood_walk_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="644302684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Woodlands_Night_120BPM_4_4_L8M_P1M_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="652398817" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destruction\Volcanic Boulder\Explosion.wav</ShortName>
 					<CachePath>SFX/Destruction/Volcanic Boulder/Explosion_10C4C929.wem</CachePath>
@@ -361,6 +385,10 @@
 					<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Run/Dirt/BAS_Player_Footstep_dirt_run_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="763202381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Woodlands_Day_120BPM_4_4_L8M_P0_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="780040215" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Walk/Dirt/BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</CachePath>
@@ -372,6 +400,14 @@
 				<File Id="801837407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
 					<CachePath>SFX/UI/BAS_QuestRoll_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="805218428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Credits_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Music/Credits_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				</File>
+				<File Id="819916167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</ShortName>
+					<CachePath>SFX/Music/Explore/Dungeon_120BPM_4_4_L8M_P1M_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="828941517" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_02.wav</ShortName>
@@ -532,6 +568,79 @@
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact">
 					<MediaRefs>
 						<MediaRef Id="652398817"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1882971781" Name="Music_Credits">
+					<MediaRefs>
+						<MediaRef Id="805218428"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3741135221" Name="Music_Region">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3424056949"/>
+							<MediaRefs>
+								<MediaRef Id="244999501"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3945572659"/>
+							<MediaRefs>
+								<MediaRef Id="536883391"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="1850388778"/>
+							<MediaRefs>
+								<MediaRef Id="283089700"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+									<MediaRefs>
+										<MediaRef Id="763202381"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1705516017" Id="1011622525"/>
+									<MediaRefs>
+										<MediaRef Id="644302684"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="608898761"/>
+							<MediaRefs>
+								<MediaRef Id="819916167"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3132368115"/>
+							<MediaRefs>
+								<MediaRef Id="299785692"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="4122393694"/>
+							<MediaRefs>
+								<MediaRef Id="299785692"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3160623154"/>
+							<MediaRefs>
+								<MediaRef Id="299785692"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1532327793" Name="Music_TitleScreen">
+					<MediaRefs>
+						<MediaRef Id="546426395"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
@@ -927,10 +1036,34 @@
 				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 				<GameParameter Id="2471758783" Name="Player_MovementSpeed"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1421251628" Name="Woodlands"/>
+						<State Id="1850388778" Name="Desert"/>
+						<State Id="3132368115" Name="WwizardHouse"/>
+						<State Id="3160623154" Name="Silent"/>
+						<State Id="3424056949" Name="Nowhere"/>
+						<State Id="3945572659" Name="Village"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="1705516017" Name="DayNight">
+					<GameParameterRef Id="207908541"/>
+					<Switches>
+						<Switch Id="311764537" Name="Day"/>
+						<Switch Id="1011622525" Name="Night"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2471758783" Name="Player_MovementSpeed">
 					<GameParameterRef Id="2471758783"/>
 					<Switches>
@@ -969,7 +1102,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{9832DB2C-2909-1B5E-5D20-718EDFD92FC2}">
+		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{6AFEAFCE-37AA-5AAD-A62F-5CFD13507F76}">
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<Media>
@@ -994,6 +1127,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F338B03D-ACA4-279E-A948-69C97803F0A4}">
 			<ShortName>Init</ShortName>
@@ -1093,7 +1230,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{9C8D4476-FDBF-E421-12F6-F1E60D83E38F}">
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{FCD306CE-01DC-7FEF-8049-87C1E77FAC06}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -1118,18 +1255,17 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{E36CEA8E-EE1A-1D6F-6FC3-67B514304091}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{919B2A15-39E4-268A-2979-8F40E358781D}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
 				<File Id="171834994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</ShortName>
 					<CachePath>SFX/Ambient_Background/BAS_amb_desert_night_background_loop_01_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="283089700" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Desert_120BPM_4_4_L8M_P0_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="405155982" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_desert_day_background_loop_01.wav</ShortName>
@@ -1142,12 +1278,9 @@
 			</Media>
 			<Events>
 				<Event Id="3408705206" Name="Ambient_Region_Desert">
-					<MediaRefs>
-						<MediaRef Id="283089700"/>
-					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="405155982"/>
 							</MediaRefs>
@@ -1170,21 +1303,6 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
-			<StateGroups>
-				<StateGroup Id="2106907484" Name="Music_Regions">
-					<States>
-						<State Id="608898761" Name="Dungeon"/>
-						<State Id="748895195" Name="None"/>
-						<State Id="1421251628" Name="Woodlands"/>
-						<State Id="1850388778" Name="Desert"/>
-						<State Id="3132368115" Name="WwizardHouse"/>
-						<State Id="3160623154" Name="Silent"/>
-						<State Id="3424056949" Name="Nowhere"/>
-						<State Id="3945572659" Name="Village"/>
-						<State Id="4122393694" Name="Cave"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1705516017" Name="DayNight">
 					<GameParameterRef Id="207908541"/>
@@ -1195,7 +1313,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2201105581" Type="User" Language="SFX" Hash="{E2552090-A8DE-A677-2613-F9E2DF318379}">
+		<SoundBank Id="2201105581" Type="User" Language="SFX" Hash="{05B96C02-0542-24EC-E1E7-4C9B239B8F51}">
 			<ShortName>Credits</ShortName>
 			<Path>Credits.bnk</Path>
 			<Media>
@@ -1211,14 +1329,18 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{E92C9607-919E-1116-5C78-CCC8A2223AEE}">
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{5CDB99B6-A463-E966-95FE-F012FA743FDC}">
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
 			<Media>
-				<File Id="325139258" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
-					<CachePath>SFX/Ambient_Background/BAS_amb_pineforest_night_background_loop_01_D79FB2B7.wem</CachePath>
+				<File Id="279769644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\amb_forest_night_background_loop_02.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/amb_forest_night_background_loop_02_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="349500947" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</ShortName>
@@ -1229,7 +1351,7 @@
 				<Event Id="808171864" Name="Ambient_Region_PineForest">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="349500947"/>
 							</MediaRefs>
@@ -1237,7 +1359,7 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="1011622525"/>
 							<MediaRefs>
-								<MediaRef Id="325139258"/>
+								<MediaRef Id="279769644"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1245,6 +1367,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1705516017" Name="DayNight">
@@ -1256,7 +1379,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{479D502D-8D41-2582-2744-BB9F6614480E}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{36AD0833-629E-7745-9B05-000B867EC321}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -1285,7 +1408,7 @@
 				<Event Id="2752753183" Name="Ambient_Region_Village">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="966129763"/>
 							</MediaRefs>
@@ -1312,6 +1435,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1705516017" Name="DayNight">
@@ -1323,7 +1447,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{15EAA514-5163-240E-BBD0-518EA2697EC5}">
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{A76DFA12-E51A-5DD4-77A1-2FD0312E3AEA}">
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<Media>
@@ -1389,6 +1513,7 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2106907484" Name="Music_Regions">
@@ -1407,5 +1532,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{75E56A4D-8D5F-F68D-39B3-34BAD870B626}</FileHash>
+	<FileHash>{343078C9-FA7E-11F0-1CCE-71B7FDCBB017}</FileHash>
 </SoundBanksInfo>

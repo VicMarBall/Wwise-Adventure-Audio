@@ -3,21 +3,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	452547817	Stop_All			\Default Work Unit\Stop_All	
 	808893336	UI_QuestRoll_Close			\Default Work Unit\UI\Quest Roll\UI_QuestRoll_Close	
 	949395292	UI_QuestRoll_Open			\Default Work Unit\UI\Quest Roll\UI_QuestRoll_Open	
+	1532327793	Music_TitleScreen			\Default Work Unit\Music\Music_TitleScreen	
+	1882971781	Music_Credits			\Default Work Unit\Music\Music_Credits	
 	1999886838	Destruction_Rock_Destroy			\Default Work Unit\Destruction\Destruction_Rock_Destroy	
 	2199611969	UI_Inventory_Open			\Default Work Unit\UI\Inventory\UI_Inventory_Open	
 	2278290679	UI_Inventory_Close			\Default Work Unit\UI\Inventory\UI_Inventory_Close	
 	2453392179	Player_Footstep			\Default Work Unit\Player\Player_Footstep	
 	2541270269	Destruction_VolcanicBoulder_Impact			\Default Work Unit\Destruction\Destruction_VolcanicBoulder_Impact	
 	3695342915	Player_WeaponImpact			\Default Work Unit\Player\Player_WeaponImpact	
+	3741135221	Music_Region			\Default Work Unit\Music\Music_Region	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\UI\Inventory\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Default Work Unit\Destruction\Destruction_Container	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
+	1705516017	DayNight			\Default Work Unit\DayNight	
 	2471758783	Player_MovementSpeed			\Default Work Unit\Player_MovementSpeed	
 	3251833556	Player_Weapon_Type			\Default Work Unit\Player_Weapon_Type	
 	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
 
 Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayNight			
+	1011622525	Night	DayNight			
 	340271938	Walking	Player_MovementSpeed			
 	3863236874	Running	Player_MovementSpeed			
 	490825222	PickAxe	Player_Weapon_Type			
@@ -42,9 +48,25 @@ Switch	ID	Name	Switch Group			Notes
 	3444057113	Crystal	Surface_Type			
 	4248645337	Grass	Surface_Type			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
 	2471758783	Player_MovementSpeed			\Default Work Unit\Player_MovementSpeed	
+	2642438544	MenuSlider_Music_Volume			\Default Work Unit\MenuSlider_Music_Volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3384823	BAS_Player_Footstep_stone_run_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Stone\Run\BAS_Player_Footstep_stone_run_04		26120
@@ -76,13 +98,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	209339952	BAS_Impact_Axe_SurfaceType_Leaves	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Weapon Impact\Axe\Leaves\BAS_Impact_Axe_SurfaceType_Leaves		44120
 	210447294	BAS_Player_Footstep_water_run_06	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Water\Run\BAS_Player_Footstep_water_run_06		25928
 	237330971	BAS_Player_Footstep_rubble_walk_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Rubble\Walk\BAS_Player_Footstep_rubble_walk_04		45328
+	244999501	Nowhere_120BPM_4_4_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Nowhere_120BPM_4_4_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Nowhere_120BPM_4_4_L8M_P0		3072160
 	246552019	BAS_Crate_Destroy_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Crate\BAS_Crate_Destroy_02		142376
 	251905446	BAS_Crate_Destroy_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Crate\BAS_Crate_Destroy_04		146658
 	258740718	BAS_Player_Footstep_water_walk_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Water\Walk\BAS_Player_Footstep_water_walk_01		47220
 	271697921	BAS_Player_Footstep_sand_run_05	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Sand\Run\BAS_Player_Footstep_sand_run_05		25748
 	275180398	BAS_Destroy_Rock_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Rock\BAS_Destroy_Rock_01		105568
 	280499940	BAS_Player_Footstep_sand_run_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Sand\Run\BAS_Player_Footstep_sand_run_02		26958
+	283089700	Desert_120BPM_4_4_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Desert_120BPM_4_4_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Desert_120BPM_4_4_L8M_P0		6912160
 	289334641	BAS_Destroy_Rock_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Rock\BAS_Destroy_Rock_02		119904
+	299785692	Cave_Silent_WwizardHouse_120BPM_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Cave_Silent_WwizardHouse_120BPM_L8M_P0		1728096
 	318054407	BAS_Player_Footstep_dirt_run_03	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Dirt\Run\BAS_Player_Footstep_dirt_run_03		26496
 	319031832	BAS_Crate_Destroy_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Crate\BAS_Crate_Destroy_01		89612
 	323334190	BAS_Player_Footstep_water_walk_03	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Water\Walk\BAS_Player_Footstep_water_walk_03		48070
@@ -105,7 +130,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	510867141	BAS_Inventory_Open	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\UI\Inventory\BAS_Inventory_Open		45400
 	517400980	BAS_Player_Footstep_water_run_03	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Water\Run\BAS_Player_Footstep_water_run_03		26496
 	536479990	BAS_Impact_Axe_SurfaceType_Dirt	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Weapon Impact\Axe\Dirt\BAS_Impact_Axe_SurfaceType_Dirt		35434
+	536883391	Village_120BPM_4_4_L8M_P1M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Village_120BPM_4_4_L8M_P1M_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Village_120BPM_4_4_L8M_P1M		4224160
 	544992794	BAS_Player_Footstep_stone_walk_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Stone\Walk\BAS_Player_Footstep_stone_walk_02		51004
+	546426395	TitleScreen_120BPM_4_4_L41M_P2M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664096
 	550268365	BAS_Player_Footstep_dirt_run_05	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Dirt\Run\BAS_Player_Footstep_dirt_run_05		23270
 	577249462	BAS_Player_Footstep_grass_walk_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Grass\Walk\BAS_Player_Footstep_grass_walk_02		51004
 	583196932	BAS_Player_Footstep_stone_run_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Stone\Run\BAS_Player_Footstep_stone_run_01		26756
@@ -121,6 +148,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	622639771	BAS_Player_Footstep_wood_walk_03	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Wood\Walk\BAS_Player_Footstep_wood_walk_03		48070
 	627702756	BAS_Player_Footstep_sand_walk_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Sand\Walk\BAS_Player_Footstep_sand_walk_04		26822
 	636479353	BAS_Player_Footstep_wood_walk_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Wood\Walk\BAS_Player_Footstep_wood_walk_02		51004
+	644302684	Woodlands_Night_120BPM_4_4_L8M_P1M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Woodlands2\Woodlands_Night_120BPM_4_4_L8M_P1M		3840160
 	652398817	Explosion	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Volcanic Boulder\Explosion		768160
 	668385707	BAS_Player_Footstep_dirt_run_06	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Dirt\Run\BAS_Player_Footstep_dirt_run_06		25928
 	680493177	BAS_Player_Footstep_grass_run_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Grass\Run\BAS_Player_Footstep_grass_run_04		26120
@@ -134,9 +162,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	740043881	BAS_Crate_Destroy_05	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Crate\BAS_Crate_Destroy_05		96650
 	743056358	BAS_Crate_Destroy_06	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Crate\BAS_Crate_Destroy_06		125102
 	746630556	BAS_Player_Footstep_dirt_run_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Dirt\Run\BAS_Player_Footstep_dirt_run_01		26756
+	763202381	Woodlands_Day_120BPM_4_4_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Woodlands2\Woodlands_Day_120BPM_4_4_L8M_P0		3840160
 	780040215	BAS_Player_Footstep_dirt_walk_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Dirt\Walk\BAS_Player_Footstep_dirt_walk_01		47220
 	791472569	BAS_Player_Footstep_sand_walk_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Sand\Walk\BAS_Player_Footstep_sand_walk_01		40918
 	801837407	BAS_QuestRoll_Open	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\UI\Quest Roll\BAS_QuestRoll_Open		104510
+	805218428	Credits_120BPM_4_4_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Credits_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Credits_120BPM_4_4_L8M_P0		3840160
+	819916167	Dungeon_120BPM_4_4_L8M_P1M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Dungeon_120BPM_4_4_L8M_P1M_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\Explore\Music\Dungeon_120BPM_4_4_L8M_P1M		4224160
 	828941517	BAS_Player_Footstep_grass_run_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Grass\Run\BAS_Player_Footstep_grass_run_02		25456
 	832541667	BAS_Player_Footstep_grass_walk_06	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Grass\Walk\BAS_Player_Footstep_grass_walk_06		47032
 	841965636	BAS_Player_Footstep_stone_walk_05	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Footsteps\Stone\Walk\BAS_Player_Footstep_stone_walk_05		47410
