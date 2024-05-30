@@ -5823,9 +5823,6 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
 												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Day" ID="{886F034B-141E-4251-95D3-984DEE3F6671}" WorkUnitID="{5AD8DDAC-0C7D-44F8-84E6-0C6E644DB3ED}"/>
-												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 												</Reference>
@@ -5929,9 +5926,6 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
 												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Day" ID="{886F034B-141E-4251-95D3-984DEE3F6671}" WorkUnitID="{5AD8DDAC-0C7D-44F8-84E6-0C6E644DB3ED}"/>
-												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 												</Reference>
@@ -6020,9 +6014,6 @@
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-												</Reference>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Day" ID="{886F034B-141E-4251-95D3-984DEE3F6671}" WorkUnitID="{5AD8DDAC-0C7D-44F8-84E6-0C6E644DB3ED}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
