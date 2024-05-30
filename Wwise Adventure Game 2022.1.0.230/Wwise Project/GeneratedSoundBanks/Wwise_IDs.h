@@ -18,8 +18,14 @@ namespace AK
         static const AkUniqueID AMBIENT_REGION_PINEFOREST = 808171864U;
         static const AkUniqueID AMBIENT_REGION_VILLAGE = 2752753183U;
         static const AkUniqueID AMBIENT_REGION_WOODLANDS = 1049266392U;
+        static const AkUniqueID AMBIENT_RIVER = 2258053876U;
+        static const AkUniqueID AMBIENT_WATERDROP = 2644063196U;
+        static const AkUniqueID AMBIENT_WATERFALL = 1934835592U;
+        static const AkUniqueID AMBIENT_WINDMILL = 2208964750U;
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
+        static const AkUniqueID MUSIC_CREDITS = 1882971781U;
+        static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
     } // namespace EVENTS
 
     namespace STATES
@@ -46,6 +52,17 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace DAYNIGHT
+        {
+            static const AkUniqueID GROUP = 1705516017U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DAY = 311764537U;
+                static const AkUniqueID NIGHT = 1011622525U;
+            } // namespace SWITCH
+        } // namespace DAYNIGHT
+
         namespace PLAYER_MOVEMENTSPEED
         {
             static const AkUniqueID GROUP = 2471758783U;
@@ -139,6 +156,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID CREDITS = 2201105581U;
         static const AkUniqueID DESERT = 1850388778U;
         static const AkUniqueID PINEFOREST = 2482365692U;
         static const AkUniqueID TITLESCREEN = 152105657U;

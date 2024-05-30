@@ -1,10 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient\Ambient_Region_Woodlands	
-
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+	1934835592	Ambient_Waterfall			\Default Work Unit\Ambient\3D Emitters\Continuous\Ambient_Waterfall	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	644302684	Woodlands_Night_120BPM_4_4_L8M_P1M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M		3840160
-	763202381	Woodlands_Day_120BPM_4_4_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0		3840160
+	22505824	BAS_Waterfall	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Waterfall		768096
+	250368874	amb_forest_night_background_loop_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\amb_forest_night_background_loop_04_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\amb_forest_night_background_loop_04		3919928
 

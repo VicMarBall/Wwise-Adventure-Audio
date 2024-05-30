@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1882971781	Music_Credits			\Default Work Unit\Music\Music_Credits	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	805218428	Credits_120BPM_4_4_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Credits_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Credits_120BPM_4_4_L8M_P0		3840160
+

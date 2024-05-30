@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambient_Region_Cave" ID="{136D766E-B54E-4A51-955C-0F00159B8FC8}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{5B04313A-4D43-4C91-996A-1FDAFB08BBC6}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_WaterDrop" ID="{98FB0A2C-58E3-4F83-AFF1-F4EAE7A3FC9F}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -29,6 +30,8 @@
 				<SoundBank Name="Village" ID="{05898FAF-1A84-4830-ABC6-D87423AA59A3}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambient_Region_Village" ID="{CDF3A48E-B7DA-4065-860D-8DC6643BC642}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{BC9C567F-92B3-4589-B9F1-BA6FAE5E836F}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_River" ID="{10890840-225A-4EA9-AF57-115AE70A120F}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -36,13 +39,22 @@
 				<SoundBank Name="Woodlands" ID="{0BAC3126-2136-406B-BD46-072B9B4B5650}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambient_Region_Woodlands" ID="{CF5707FD-7A73-4705-8B47-F1D40088E07B}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{F0474006-0AE6-4BAF-8826-656FD504C19A}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="TitleScreen" ID="{DAFC0611-3900-4BF2-8085-CCECA8545493}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Music_TitleScreen" ID="{DD89969A-589A-409C-A44A-6F2135D15813}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Region_Woodlands" ID="{CF5707FD-7A73-4705-8B47-F1D40088E07B}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Credits" ID="{4926398A-1196-4F78-9369-6CCB069E4F75}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Credits" ID="{71ECF48A-EC28-49FB-85C3-C09415BE9D3A}" WorkUnitID="{A5795630-E69A-4F32-B094-0BF9F0BEC1A9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

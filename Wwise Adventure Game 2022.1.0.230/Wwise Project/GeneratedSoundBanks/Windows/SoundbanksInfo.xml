@@ -9,32 +9,33 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{4EB9E0B5-D6C0-339B-B2F4-79D254510384}">
+		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{5278B0D3-FBC5-AEEC-DC40-8246886E9F4E}">
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<Media>
-				<File Id="644302684" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Woodlands_Night_120BPM_4_4_L8M_P1M_10C4C929.wem</CachePath>
+				<File Id="250368874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\amb_forest_night_background_loop_04.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/amb_forest_night_background_loop_04_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="763202381" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Woodlands_Day_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				<File Id="546426395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\TitleScreen_120BPM_4_4_L41M_P2M.wav</ShortName>
+					<CachePath>SFX/Music/TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="1049266392" Name="Ambient_Region_Woodlands">
 					<MediaRefs>
-						<MediaRef Id="644302684"/>
-						<MediaRef Id="763202381"/>
+						<MediaRef Id="250368874"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1532327793" Name="Music_TitleScreen">
+					<MediaRefs>
+						<MediaRef Id="546426395"/>
 					</MediaRefs>
 				</Event>
 			</Events>
-			<GameParameters>
-				<GameParameter Id="207908541" Name="Time_of_Day"/>
-			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FAB7BD90-63F9-395E-0B67-6C23EA092665}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F338B03D-ACA4-279E-A948-69C97803F0A4}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -76,6 +77,13 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="1705516017" Name="DayNight">
+					<GameParameterRef Id="207908541"/>
+					<Switches>
+						<Switch Id="311764537" Name="Day"/>
+						<Switch Id="1011622525" Name="Night"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2471758783" Name="Player_MovementSpeed">
 					<GameParameterRef Id="2471758783"/>
 					<Switches>
@@ -125,32 +133,33 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{1F63E2C0-CF99-D0B0-8BBB-A3981DEBA5BE}">
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{93331598-EBE5-D275-5D51-89CFDAE3756A}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
-				<File Id="644302684" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Woodlands_Night_120BPM_4_4_L8M_P1M_10C4C929.wem</CachePath>
+				<File Id="22505824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_Waterfall_10C4C929.wem</CachePath>
 				</File>
-				<File Id="763202381" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Woodlands_Day_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				<File Id="250368874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\amb_forest_night_background_loop_04.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/amb_forest_night_background_loop_04_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="1049266392" Name="Ambient_Region_Woodlands">
 					<MediaRefs>
-						<MediaRef Id="644302684"/>
-						<MediaRef Id="763202381"/>
+						<MediaRef Id="250368874"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall">
+					<MediaRefs>
+						<MediaRef Id="22505824"/>
 					</MediaRefs>
 				</Event>
 			</Events>
-			<GameParameters>
-				<GameParameter Id="207908541" Name="Time_of_Day"/>
-			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{814A81C0-5CAD-99FA-EACC-878DCD97A00B}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{A9B51595-85F3-A115-F4AC-282D48FC5DAA}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -160,7 +169,7 @@
 				</File>
 				<File Id="283089700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Desert_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+					<CachePath>SFX/Music/Explore/Desert_120BPM_4_4_L8M_P0_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="405155982" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_desert_day_background_loop_01.wav</ShortName>
@@ -178,10 +187,22 @@
 			<Events>
 				<Event Id="3408705206" Name="Ambient_Region_Desert">
 					<MediaRefs>
-						<MediaRef Id="171834994"/>
 						<MediaRef Id="283089700"/>
-						<MediaRef Id="405155982"/>
 					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+							<MediaRefs>
+								<MediaRef Id="405155982"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="1011622525"/>
+							<MediaRefs>
+								<MediaRef Id="171834994"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact">
 					<MediaRefs>
@@ -194,8 +215,49 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1421251628" Name="Woodlands"/>
+						<State Id="1850388778" Name="Desert"/>
+						<State Id="3132368115" Name="WwizardHouse"/>
+						<State Id="3160623154" Name="Silent"/>
+						<State Id="3424056949" Name="Nowhere"/>
+						<State Id="3945572659" Name="Village"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1705516017" Name="DayNight">
+					<GameParameterRef Id="207908541"/>
+					<Switches>
+						<Switch Id="311764537" Name="Day"/>
+						<Switch Id="1011622525" Name="Night"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{0F97706B-A0D5-F39F-4D69-949F7CA6F88E}">
+		<SoundBank Id="2201105581" Type="User" Language="SFX" Hash="{E2552090-A8DE-A677-2613-F9E2DF318379}">
+			<ShortName>Credits</ShortName>
+			<Path>Credits.bnk</Path>
+			<Media>
+				<File Id="805218428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Credits_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Music/Credits_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1882971781" Name="Music_Credits">
+					<MediaRefs>
+						<MediaRef Id="805218428"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{A05C98DE-C52A-5D24-C869-1B0CD57673F2}">
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
 			<Media>
@@ -203,16 +265,43 @@
 					<ShortName>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
 					<CachePath>SFX/Ambient_Background/BAS_amb_pineforest_night_background_loop_01_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="349500947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_forest_day_background_loop_01_D79FB2B7.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="808171864" Name="Ambient_Region_PineForest">
-					<MediaRefs>
-						<MediaRef Id="325139258"/>
-					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+							<MediaRefs>
+								<MediaRef Id="349500947"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="1011622525"/>
+							<MediaRefs>
+								<MediaRef Id="325139258"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1705516017" Name="DayNight">
+					<GameParameterRef Id="207908541"/>
+					<Switches>
+						<Switch Id="311764537" Name="Day"/>
+						<Switch Id="1011622525" Name="Night"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{6D8C2061-DD25-C75C-FA51-E13083351BA3}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{BC47C232-3753-166D-3C6C-13AE0B9092DF}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -220,9 +309,13 @@
 					<ShortName>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</ShortName>
 					<CachePath>SFX/Ambient_Background/BAS_amb_village_night_background_loop_01_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="536883391" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Village_120BPM_4_4_L8M_P1M_10C4C929.wem</CachePath>
+				<File Id="654069154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_WindMillBlade_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_WindMillBlade_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="879268180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_Water_River_10C4C929.wem</CachePath>
 				</File>
 				<File Id="966129763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</ShortName>
@@ -231,24 +324,56 @@
 			</Media>
 			<Events>
 				<Event Id="2752753183" Name="Ambient_Region_Village">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
+							<MediaRefs>
+								<MediaRef Id="966129763"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="1011622525"/>
+							<MediaRefs>
+								<MediaRef Id="127682777"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River">
 					<MediaRefs>
-						<MediaRef Id="127682777"/>
-						<MediaRef Id="536883391"/>
-						<MediaRef Id="966129763"/>
+						<MediaRef Id="879268180"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill">
+					<MediaRefs>
+						<MediaRef Id="654069154"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1705516017" Name="DayNight">
+					<GameParameterRef Id="207908541"/>
+					<Switches>
+						<Switch Id="311764537" Name="Day"/>
+						<Switch Id="1011622525" Name="Night"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{B9235ECD-7F13-D9C5-180B-4877D6C55051}">
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{479117F8-2408-91FE-12B8-8B05BCC72DCF}">
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<Media>
+				<File Id="98561725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_WaterDrops_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="299785692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</ShortName>
-					<CachePath>SFX/Music/Explore/Cave_Silent_WwizardHouse_120BPM_L8M_P0_10C4C929.wem</CachePath>
+					<CachePath>SFX/Music/Explore/Cave_Silent_WwizardHouse_120BPM_L8M_P0_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="529590542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
@@ -266,6 +391,11 @@
 						<MediaRef Id="529590542"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2644063196" Name="Ambient_WaterDrop">
+					<MediaRefs>
+						<MediaRef Id="98561725"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="448719855" Name="Destruction_Crystal_Destroy">
 					<MediaRefs>
 						<MediaRef Id="584741371"/>
@@ -275,7 +405,22 @@
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1421251628" Name="Woodlands"/>
+						<State Id="1850388778" Name="Desert"/>
+						<State Id="3132368115" Name="WwizardHouse"/>
+						<State Id="3160623154" Name="Silent"/>
+						<State Id="3424056949" Name="Nowhere"/>
+						<State Id="3945572659" Name="Village"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6E190E95-B2DF-F09A-0944-297DB86EB461}</FileHash>
+	<FileHash>{D797012B-BCC4-1718-F203-3942BFAFDA1B}</FileHash>
 </SoundBanksInfo>

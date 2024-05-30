@@ -1,7 +1,10 @@
 Switch Group	ID	Name			Wwise Object Path	Notes
+	1705516017	DayNight			\Default Work Unit\DayNight	
 	2471758783	Player_MovementSpeed			\Default Work Unit\Player_MovementSpeed	
 
 Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayNight			
+	1011622525	Night	DayNight			
 	340271938	Walking	Player_MovementSpeed			
 	3863236874	Running	Player_MovementSpeed			
 

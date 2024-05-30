@@ -1,12 +1,28 @@
 Event	ID	Name			Wwise Object Path	Notes
 	448719855	Destruction_Crystal_Destroy			\Default Work Unit\Destruction\Destruction_Crystal_Destroy	
 	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient\Ambient_Region_Cave	
+	2644063196	Ambient_WaterDrop			\Default Work Unit\Ambient\3D Emitters\One-Shots\Ambient_WaterDrop	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	299785692	Cave_Silent_WwizardHouse_120BPM_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0		1728096
+	98561725	BAS_WaterDrops_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_WaterDrops_01		28768
+	299785692	Cave_Silent_WwizardHouse_120BPM_L8M_P0	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Explore\Music\Cave_Silent_WwizardHouse_120BPM_L8M_P0		1728096
 	529590542	BAS_amb_cave_background_LP	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\BAS_amb_cave_background_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_cave_background_LP		14786892
 	584741371	BAS_Crystals_Destroy	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Destruction\Destruction Crystal\BAS_Crystals_Destroy		191808
 
