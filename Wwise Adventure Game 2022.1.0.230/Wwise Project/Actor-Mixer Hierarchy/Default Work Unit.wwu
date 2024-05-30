@@ -354,6 +354,11 @@
 								<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{C34CF2AF-676A-41A9-8535-2A1C55DE3B1A}" ShortID="59824044">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -379,6 +384,11 @@
 								<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{378E777B-3836-4425-BAF5-61338B35B685}" ShortID="204221126">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
