@@ -6122,6 +6122,11 @@
 												<Sound Name="amb_forest_night_background_loop_02" ID="{68F6CF71-6374-44FC-9E1E-638538F8D087}" ShortID="774034128">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
