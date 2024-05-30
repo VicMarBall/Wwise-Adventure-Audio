@@ -84,6 +84,13 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{D2083856-BD5D-4F56-993E-4F8D4495F2A0}" ShortID="425637333">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WindMillBlade_03" ID="{7CBBB51D-4E42-4D5D-BFEA-20B09371E8A6}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Door_DLCdoor_Open_Play" ID="{20F7CB94-FDCD-48C1-AFEA-3DA8B71D4DC5}">
@@ -482,7 +489,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Music_Region" ID="{C860304F-39E5-4E27-AB61-19990A28F06F}"/>
+						<Event Name="Music_Region" ID="{C860304F-39E5-4E27-AB61-19990A28F06F}">
+							<ChildrenList>
+								<Action Name="" ID="{0CD39564-0EAE-4052-9A40-3BFE9A518699}" ShortID="760003068">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{A5753A21-1B35-4FD8-B882-97F54CCA5820}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
