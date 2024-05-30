@@ -127,11 +127,61 @@
 											<ChildrenList>
 												<Action Name="" ID="{C5FCC2F4-BC79-4A77-A09F-E7408CC25E5B}" ShortID="548035130">
 													<PropertyList>
-														<Property Name="Probability" Type="Real64" Value="50"/>
+														<Property Name="Probability" Type="Real64" Value="15"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BAS_WaterDrops_01" ID="{1E7824BA-BC56-4CAE-B056-6BC2000815DB}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{BCC94FAA-6837-4D4F-9AB8-413AA7574789}" ShortID="150848326">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WaterDrops_02" ID="{4906F0D1-EB9F-46E4-AD55-2C333C73FCF4}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{F922E0A3-0C2C-4631-BE29-FA591891B7DC}" ShortID="249334211">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="10"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WaterDrops_03" ID="{EF593D36-7BDC-402A-9EF6-47F09708AA24}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{2DD95C98-4C8B-4B9F-A9A3-5C305C5BB2F0}" ShortID="694583409">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="15"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WaterDrops_04" ID="{B1E20352-EBB3-44E8-8F5F-C9541D9132BC}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{7B680613-2EC4-49B1-BD6E-A8B2EA8DC955}" ShortID="909998630">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WaterDrops_05" ID="{85C8F778-8F43-46C8-8644-0A3A88BB8748}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{526ECA05-9689-4BF7-9BDA-9031F01BA050}" ShortID="475204888">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_WaterDrops_06" ID="{DAC25D53-77C1-4E8C-ACAC-4A4A6C8E58D1}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
