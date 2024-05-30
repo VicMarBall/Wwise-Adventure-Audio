@@ -7,7 +7,7 @@
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Switches\Default Work Unit.wwu" DateLow="1717087266" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\States\Default Work Unit.wwu" DateLow="1716933029" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1716663496" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\SoundBanks\Default Work Unit.wwu" DateLow="1717087265" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\SoundBanks\Default Work Unit.wwu" DateLow="1717093021" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Queries\Factory Queries.wwu" DateLow="1716663496" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Queries\Default Work Unit.wwu" DateLow="1716663496" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Presets\Factory Spatial Audio.wwu" DateLow="1715330876" DateHigh="0"/>
@@ -18,7 +18,7 @@
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1716663496" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1716663496" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Game Parameters\Default Work Unit.wwu" DateLow="1716933029" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Events\Default Work Unit.wwu" DateLow="1717087245" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Events\Default Work Unit.wwu" DateLow="1717092983" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Effects\Factory Effects.wwu" DateLow="1716663496" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Effects\Default Work Unit.wwu" DateLow="1716663495" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1716663495" DateHigh="0"/>
@@ -27,5 +27,5 @@
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Control Surface Sessions\Default Work Unit.wwu" DateLow="1716663495" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Audio Devices\Default Work Unit.wwu" DateLow="1716663495" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Attenuations\Default Work Unit.wwu" DateLow="1716663495" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1717087245" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Victor\Documents\github-repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1717092983" DateHigh="0"/>
 </ValidationCache>
