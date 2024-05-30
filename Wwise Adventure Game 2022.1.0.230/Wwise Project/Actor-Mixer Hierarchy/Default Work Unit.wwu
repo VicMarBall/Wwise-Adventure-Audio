@@ -5156,28 +5156,6 @@
 														<ActiveSource Name="Explosion" ID="{3BE9690B-3251-4307-B1FD-85638138211E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="DebrisDirt" ID="{FF0CA207-BE43-4FC5-B8C4-DD4FD1600AC1}" ShortID="271806222">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="DebrisDirt" ID="{BEAC1895-B4FA-4F0D-9447-CFCB24FE55FC}">
-															<Language>SFX</Language>
-															<AudioFile>Destruction\Volcanic Boulder\DebrisDirt.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1010336240"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="DebrisDirt" ID="{BEAC1895-B4FA-4F0D-9447-CFCB24FE55FC}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -8945,6 +8923,28 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="DebrisDirt" ID="{FF0CA207-BE43-4FC5-B8C4-DD4FD1600AC1}" ShortID="271806222">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DebrisDirt" ID="{BEAC1895-B4FA-4F0D-9447-CFCB24FE55FC}">
+									<Language>SFX</Language>
+									<AudioFile>Destruction\Volcanic Boulder\DebrisDirt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1010336240"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DebrisDirt" ID="{BEAC1895-B4FA-4F0D-9447-CFCB24FE55FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{1F646835-D377-4710-8554-13D1E49BCC58}" ShortID="299146899">
