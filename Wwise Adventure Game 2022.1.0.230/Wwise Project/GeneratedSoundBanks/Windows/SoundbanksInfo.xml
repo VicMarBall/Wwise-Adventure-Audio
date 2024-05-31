@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{E8CE8172-B22A-0A37-3664-BDEC786DD7E9}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{74E8177F-4A2B-7F22-E93A-A97295155CED}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -69,6 +69,10 @@
 					<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Dirt.wav</ShortName>
 					<CachePath>SFX/Impacts/BAS_Impact_Dagger_SurfaceType_Dirt_10C4C929.wem</CachePath>
 				</File>
+				<File Id="141482899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_Torch_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="144827993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_03.wav</ShortName>
 					<CachePath>SFX/Footsteps/Run/Stone/BAS_Player_Footstep_stone_run_03_10C4C929.wem</CachePath>
@@ -80,6 +84,10 @@
 				<File Id="153034262" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_02.wav</ShortName>
 					<CachePath>SFX/Footsteps/Run/Dirt/BAS_Player_Footstep_dirt_run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="153050684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Button_Close.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Button_Close_10C4C929.wem</CachePath>
 				</File>
 				<File Id="159989989" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_03.wav</ShortName>
@@ -164,6 +172,10 @@
 				<File Id="289334641" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destruction\BAS_Destroy_Rock_02.wav</ShortName>
 					<CachePath>SFX/Destruction/BAS_Destroy_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="294870023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Combat\Cymbal_120BPM_4_4_L8M_P2B.wav</ShortName>
+					<CachePath>SFX/Music/Combat/Cymbal_120BPM_4_4_L8M_P2B_10C4C929.wem</CachePath>
 				</File>
 				<File Id="299785692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</ShortName>
@@ -393,6 +405,10 @@
 					<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Walk/Dirt/BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="784384179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music\Combat\Timpani_120BPM_4_4_L8M_P2B.wav</ShortName>
+					<CachePath>SFX/Music/Combat/Timpani_120BPM_4_4_L8M_P2B_10C4C929.wem</CachePath>
+				</File>
 				<File Id="791472569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Walk/Sand/BAS_Player_Footstep_sand_walk_01_10C4C929.wem</CachePath>
@@ -404,6 +420,10 @@
 				<File Id="805218428" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Credits_120BPM_4_4_L8M_P0.wav</ShortName>
 					<CachePath>SFX/Music/Credits_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				</File>
+				<File Id="814547638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_Lava.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_Lava_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="819916167" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</ShortName>
@@ -509,6 +529,10 @@
 					<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
 					<CachePath>SFX/UI/BAS_QuestRoll_Close_10C4C929.wem</CachePath>
 				</File>
+				<File Id="972578458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Emitters\BAS_Crystal_Ringing.wav</ShortName>
+					<CachePath>SFX/Ambient_Emitters/BAS_Crystal_Ringing_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="973931500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destruction\BAS_Crate_Destroy_03.wav</ShortName>
 					<CachePath>SFX/Destruction/BAS_Crate_Destroy_03_10C4C929.wem</CachePath>
@@ -543,6 +567,31 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play">
+					<MediaRefs>
+						<MediaRef Id="141482899"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="100151336" Name="Ambient_Campfire_Stop">
+					<MediaRefs>
+						<MediaRef Id="153050684"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2355650095" Name="Ambient_Crystal_Hum">
+					<MediaRefs>
+						<MediaRef Id="972578458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4275106484" Name="Ambient_Lava">
+					<MediaRefs>
+						<MediaRef Id="814547638"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="120976108" Name="Ambient_Torch">
+					<MediaRefs>
+						<MediaRef Id="141482899"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4254124015" Name="Destruction_Container">
 					<MediaRefs>
 						<MediaRef Id="246552019"/>
@@ -568,6 +617,16 @@
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact">
 					<MediaRefs>
 						<MediaRef Id="652398817"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play">
+					<MediaRefs>
+						<MediaRef Id="784384179"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop">
+					<MediaRefs>
+						<MediaRef Id="294870023"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1882971781" Name="Music_Credits">
@@ -1102,7 +1161,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{6AFEAFCE-37AA-5AAD-A62F-5CFD13507F76}">
+		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{4463AF9C-B015-CC6B-486D-358A09E4859E}">
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<Media>
@@ -1132,10 +1191,13 @@
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F338B03D-ACA4-279E-A948-69C97803F0A4}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{963F69DE-0794-01E0-6202-D27D7E98C5C8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -1144,6 +1206,85 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1941785149" Name="Dungeon_Library">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2213850905" Name="Dungeon_Core">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3352684520" Name="CaveEntrance">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4122393694" Name="Cave">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 				<GameParameter Id="215992295" Name="Player_Health"/>
@@ -1230,7 +1371,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{FCD306CE-01DC-7FEF-8049-87C1E77FAC06}">
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{0E2ED96C-CAF4-3A83-6DAE-4805FD32CAF0}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -1259,7 +1400,7 @@
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{141091B1-6928-7B3A-8598-AEF4C07D1D51}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{028860A2-8FC9-E7BA-0F7E-3E190EACD7B8}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -1378,7 +1519,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{02DCB6EC-6236-08E9-02EE-CF9B5ADE46DF}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{80C2FB66-D455-6FC7-4A28-194B7797CCEE}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -1446,7 +1587,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{A76DFA12-E51A-5DD4-77A1-2FD0312E3AEA}">
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{242799D4-4C1A-B95A-CAA5-1AD125DB89FE}">
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<Media>
@@ -1531,5 +1672,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7CBB0F8C-BEEE-2F7C-B5C1-7310E3067786}</FileHash>
+	<FileHash>{F56B89F8-68F3-6379-43F4-E2CACF567577}</FileHash>
 </SoundBanksInfo>

@@ -25,6 +25,22 @@ State	ID	Name	State Group			Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243931001	Dungeon_Forge			\Default Work Unit\Master Audio Bus\Dungeon_Forge	
+	425911480	Dungeon_Library_Statue			\Default Work Unit\Master Audio Bus\Dungeon_Library_Statue	
+	567469275	Dungeon_PathToForge			\Default Work Unit\Master Audio Bus\Dungeon_PathToForge	
+	1156828694	Dungeon_Entrance			\Default Work Unit\Master Audio Bus\Dungeon_Entrance	
+	1941785149	Dungeon_Library			\Default Work Unit\Master Audio Bus\Dungeon_Library	
+	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoomEntrance	
+	2106540524	Dungeon_RoadToCore			\Default Work Unit\Master Audio Bus\Dungeon_RoadToCore	
+	2213850905	Dungeon_Core			\Default Work Unit\Master Audio Bus\Dungeon_Core	
+	3352684520	CaveEntrance			\Default Work Unit\Master Audio Bus\CaveEntrance	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\Cave	
+	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
