@@ -5300,6 +5300,11 @@
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -5436,14 +5441,16 @@
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{5BAC3CAD-E67F-48DC-B91B-038D6D777950}" ShortID="289832037">
-															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="150"/>
-															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
 																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -5459,7 +5466,7 @@
 																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>150</XPos>
+																					<XPos>100</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -5569,7 +5576,7 @@
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{3923144A-0A79-4842-8D68-A437043D960B}" ShortID="644000096">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="40"/>
+																<Property Name="RadiusMax" Type="Real64" Value="30"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -5586,7 +5593,7 @@
 																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>40</XPos>
+																					<XPos>30</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
