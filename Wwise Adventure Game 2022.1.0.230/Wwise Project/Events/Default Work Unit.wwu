@@ -46,6 +46,9 @@
 										<Event Name="Ambient_Lava" ID="{181C368F-9C3F-4C6D-A250-46C97AE86439}">
 											<ChildrenList>
 												<Action Name="" ID="{75A407E9-4B0C-4047-9CC6-41F803323ED4}" ShortID="487448281">
+													<PropertyList>
+														<Property Name="FadeInCurve" Type="int16" Value="6"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="BAS_Lava" ID="{9E3E18D8-D5E7-418C-AC76-2866B7CAA8A4}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>

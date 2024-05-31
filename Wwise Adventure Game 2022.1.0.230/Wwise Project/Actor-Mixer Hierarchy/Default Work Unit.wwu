@@ -5300,18 +5300,13 @@
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>10</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{35F0F86B-B2C6-4DCC-8D6D-B77E221082B0}" ShortID="1073424336">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="75"/>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -5325,10 +5320,10 @@
 																					<XPos>0</XPos>
 																					<YPos>0</YPos>
 																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
+																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>75</XPos>
+																					<XPos>10</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -5441,11 +5436,6 @@
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>12</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -5565,12 +5555,12 @@
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
-														<Value>-40</Value>
+														<Value>-10</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>12</Value>
+														<Value>6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -5579,7 +5569,7 @@
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{3923144A-0A79-4842-8D68-A437043D960B}" ShortID="644000096">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="60"/>
+																<Property Name="RadiusMax" Type="Real64" Value="40"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -5596,7 +5586,7 @@
 																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>60</XPos>
+																					<XPos>40</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
