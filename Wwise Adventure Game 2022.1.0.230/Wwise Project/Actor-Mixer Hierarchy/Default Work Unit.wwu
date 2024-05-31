@@ -5576,18 +5576,13 @@
 														<Value>-10</Value>
 													</ValueList>
 												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>6</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{3923144A-0A79-4842-8D68-A437043D960B}" ShortID="644000096">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="30"/>
+																<Property Name="RadiusMax" Type="Real64" Value="20"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -5604,7 +5599,7 @@
 																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>20</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
