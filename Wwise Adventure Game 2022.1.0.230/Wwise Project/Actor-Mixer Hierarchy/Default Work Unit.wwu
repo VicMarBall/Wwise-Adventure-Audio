@@ -5547,6 +5547,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Lava" ID="{B31C1754-F7BF-4A9A-A6DE-FB1E1A59AFBB}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.232215432310422"/>
+														<Property Name="TrimEnd" Type="Real64" Value="13.433422628591"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient_Emitters\BAS_Lava.wav</AudioFile>
 													<MediaIDList>
