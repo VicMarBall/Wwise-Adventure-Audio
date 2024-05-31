@@ -2,11 +2,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient\Ambient_Region_Woodlands	
 	1532327793	Music_TitleScreen			\Default Work Unit\Music\Music_TitleScreen	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1705516017	DayNight			\Default Work Unit\DayNight	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayNight			
+	1011622525	Night	DayNight			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
 	2642438544	MenuSlider_Music_Volume			\Default Work Unit\MenuSlider_Music_Volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	250368874	amb_forest_night_background_loop_04	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\amb_forest_night_background_loop_04_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\SFX\Ambient_Background\amb_forest_night_background_loop_04		3919928
+	279769644	amb_forest_night_background_loop_02	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\amb_forest_night_background_loop_02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Ambient_Background\Forest\ForestNight\amb_forest_night_background_loop_02\amb_forest_night_background_loop_02		4343896
+	349500947	BAS_amb_forest_day_background_loop_01	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Ambient_Background\Forest\ForestDay\BAS_amb_forest_day_background_loop_01\BAS_amb_forest_day_background_loop_01		27990112
 	546426395	TitleScreen_120BPM_4_4_L41M_P2M	D:\GitHub_Repositories\Wwise-Adventure-Audio\Wwise Adventure Game 2022.1.0.230\Wwise Project\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Master\Music\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664096
 
