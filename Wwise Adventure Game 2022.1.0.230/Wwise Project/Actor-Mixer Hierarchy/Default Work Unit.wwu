@@ -512,9 +512,6 @@
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-																</Reference>
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{6E2E99AC-69FE-4B00-B54B-40EA05E77CCE}">
@@ -570,9 +567,6 @@
 																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-																</Reference>
-																<Reference Name="UserAuxSend0">
-																	<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -6472,9 +6466,6 @@
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-												</Reference>
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{92546368-CAA9-4F72-B928-8B52DF12E354}">
@@ -6505,9 +6496,6 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-												</Reference>
-												<Reference Name="UserAuxSend0">
-													<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>

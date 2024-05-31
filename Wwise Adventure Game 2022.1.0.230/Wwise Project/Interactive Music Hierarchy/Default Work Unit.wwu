@@ -105,9 +105,6 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="BAS_amb_cave_background_LP" ID="{12BC3AA2-92BF-44F3-82F9-A419F620E655}" ShortID="999910909">
@@ -196,9 +193,6 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-								</Reference>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
