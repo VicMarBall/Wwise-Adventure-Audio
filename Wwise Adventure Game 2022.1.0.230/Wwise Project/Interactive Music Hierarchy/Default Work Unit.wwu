@@ -92,6 +92,11 @@
 						<MusicSegment Name="BAS_amb_cave_background_LP" ID="{F3A5A130-8EC9-4626-9B98-222B6B588114}" ShortID="628599805">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="77014.5625"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -99,6 +104,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -176,6 +184,11 @@
 						<MusicSegment Name="BAS_amb_dungeon_day_background_loop_01" ID="{27A3E46E-7DAE-4F43-9F6E-1163E65981FB}" ShortID="400792067">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="139691.247165533"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -183,6 +196,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="env_cave" ID="{6B129A3B-DD4A-4DDF-8C6D-C2B1F04F7DC3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
