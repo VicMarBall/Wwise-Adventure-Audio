@@ -23,7 +23,13 @@
 										</Event>
 										<Event Name="Ambient_Campfire_Stop" ID="{4DBF03A0-4962-4DBA-B235-2EE8BFB9B843}">
 											<ChildrenList>
-												<Action Name="" ID="{CC98F872-BFCD-4C46-BE23-E1840AB19717}" ShortID="529425096"/>
+												<Action Name="" ID="{CC98F872-BFCD-4C46-BE23-E1840AB19717}" ShortID="529425096">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="BAS_Button_Close" ID="{1C9AF820-2F59-4C02-A69E-CB984D063E2E}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Ambient_Crystal_Hum" ID="{6C5AEA21-628A-4EDB-8F6C-BC1F124EC3F6}">
