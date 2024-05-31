@@ -5161,7 +5161,7 @@
 									<ChildrenList>
 										<Sound Name="BAS_Crystal_Ringing" ID="{D74303EC-21B6-45FE-9CE8-03E0C053DD15}" ShortID="617439731">
 											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
@@ -5297,7 +5297,7 @@
 										</Sound>
 										<Sound Name="BAS_Lava" ID="{9E3E18D8-D5E7-418C-AC76-2866B7CAA8A4}" ShortID="859035204">
 											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
@@ -5305,6 +5305,9 @@
 												<Reference Name="Attenuation">
 													<Custom>
 														<Attenuation Name="Attenuation (Custom)" ID="{5BAC3CAD-E67F-48DC-B91B-038D6D777950}" ShortID="289832037">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="150"/>
+															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
 																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -5317,10 +5320,10 @@
 																					<XPos>0</XPos>
 																					<YPos>0</YPos>
 																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
+																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>100</XPos>
+																					<XPos>150</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -5402,13 +5405,16 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E5EB8B9C-B82A-4F26-805C-2F4874F5A717}"/>
+											</PositioningInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="BAS_Lava" ID="{B31C1754-F7BF-4A9A-A6DE-FB1E1A59AFBB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Torch" ID="{95EF9633-2AC2-4A38-88E6-CD71436F44A9}" ShortID="371107133">
 											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
@@ -5418,7 +5424,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>5</Value>
+														<Value>12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -5441,7 +5447,7 @@
 																					<XPos>0</XPos>
 																					<YPos>0</YPos>
 																					<Flags>5</Flags>
-																					<SegmentShape>Log3</SegmentShape>
+																					<SegmentShape>SCurve</SegmentShape>
 																				</Point>
 																				<Point>
 																					<XPos>30</XPos>
