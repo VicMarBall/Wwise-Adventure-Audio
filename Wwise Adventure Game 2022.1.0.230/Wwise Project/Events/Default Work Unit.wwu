@@ -309,7 +309,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="amb_forest_night_background_loop_04" ID="{198EB1D0-5870-42F9-9663-0B31CD0E1D99}" WorkUnitID="{ECF4ECA2-9339-446F-AC6F-1968CFA34327}"/>
+											<ObjectRef Name="Forest" ID="{D572597F-A6F3-47D9-BB0F-9559DACFCB2F}" WorkUnitID="{8B507265-CA6B-4CB4-A251-2E6A757367FF}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
