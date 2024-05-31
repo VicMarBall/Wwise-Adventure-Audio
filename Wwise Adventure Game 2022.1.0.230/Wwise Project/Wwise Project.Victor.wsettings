@@ -115,7 +115,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewBFADAANQAyADMARQA5ADYALQBCADIANQA4AC0ANABCAEYAQgAtADkAOQBDAEUALQBGADcAMABFADIARAA1ADcAMAA3ADMARgB9AAAAAAE="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewBBAEIAMQA3ADMAMwAxAEQALQBGADAAQQBCAC0ANAAyAEUANgAtAEIARAAxADIALQA1AEUAOAA4ADcANQAyADkAQQBBAEEAMQB9AAAAAQE="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1YYtKOOdEg6S5eVe9/5edlA2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWii7PTsOZNvRKxvGWjPo0MnebEeU3gvQEqrk9tiwaU3DBaBz87iQwRDnXo4Cn45mdO92sG9iAD0QIcQqQk/45F9ZtP+STC1qEKZO5JIc6q3Bw=="/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel2\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
