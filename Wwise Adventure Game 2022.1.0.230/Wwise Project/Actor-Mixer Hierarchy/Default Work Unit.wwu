@@ -5724,150 +5724,6 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="UI" ID="{A54BBC8B-5C94-4072-B0D3-806BD944B75E}" ShortID="398667875">
-									<ChildrenList>
-										<Folder Name="Inventory" ID="{3FBF7FD1-D46C-4900-B410-A0048FA92471}" ShortID="655337448">
-											<ChildrenList>
-												<Sound Name="BAS_Inventory_Close" ID="{C5342CBB-044B-4DAD-820A-4043118E8AD5}" ShortID="978219809">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="BAS_Inventory_Close" ID="{C7D76377-B0D1-4DCD-AF4C-1A4A46F3F582}">
-															<Language>SFX</Language>
-															<AudioFile>UI\BAS_Inventory_Close.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="100496679"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="BAS_Inventory_Close" ID="{C7D76377-B0D1-4DCD-AF4C-1A4A46F3F582}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="BAS_Inventory_Select" ID="{3DEDF50D-5559-4008-9B92-D60CE1D5D125}" ShortID="54927997">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="BAS_Inventory_Select" ID="{4E5CCE4F-231E-413C-AF28-2A347E425691}">
-															<Language>SFX</Language>
-															<AudioFile>UI\BAS_Inventory_Select.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="671371475"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="BAS_Inventory_Select" ID="{4E5CCE4F-231E-413C-AF28-2A347E425691}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="BAS_Inventory_Open" ID="{836AE2FC-EF4E-4697-8143-D417446550BD}" ShortID="872471444">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="BAS_Inventory_Open" ID="{5300C2E5-A2D3-47D7-9035-AE7EC88F37C8}">
-															<Language>SFX</Language>
-															<AudioFile>UI\BAS_Inventory_Open.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="510867141"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="BAS_Inventory_Open" ID="{5300C2E5-A2D3-47D7-9035-AE7EC88F37C8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="BAS_Inventory_Scroll" ID="{1B6AAB61-00DE-4C6B-AE20-737F7CF07C86}" ShortID="102494428">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="BAS_Inventory_Scroll" ID="{4D8503BB-D7C8-448E-A821-39B79EF6A148}">
-															<Language>SFX</Language>
-															<AudioFile>UI\BAS_Inventory_Scroll.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="107630337"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="BAS_Inventory_Scroll" ID="{4D8503BB-D7C8-448E-A821-39B79EF6A148}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</Folder>
-										<Folder Name="Quest Roll" ID="{24B71ECC-F955-437A-A081-12F6671CC104}" ShortID="472735358">
-											<ChildrenList>
-												<Sound Name="BAS_QuestRoll_Close" ID="{92C7755F-3C10-4BAF-B294-7766220C2F93}" ShortID="776980031">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="BAS_QuestRoll_Close" ID="{4E3C53B7-C7F3-4371-93F3-DC0E7A50F5D4}">
-															<Language>SFX</Language>
-															<AudioFile>UI\BAS_QuestRoll_Close.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="963455836"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="BAS_QuestRoll_Close" ID="{4E3C53B7-C7F3-4371-93F3-DC0E7A50F5D4}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="BAS_QuestRoll_Open" ID="{4A0BA66A-EC8A-4C25-84CD-130F6CCF2CD7}" ShortID="986213049">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="BAS_QuestRoll_Open" ID="{0C2C8DF0-FD2A-4235-B64F-E04E53260D57}">
-															<Language>SFX</Language>
-															<AudioFile>UI\BAS_QuestRoll_Open.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="801837407"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="BAS_QuestRoll_Open" ID="{0C2C8DF0-FD2A-4235-B64F-E04E53260D57}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</Folder>
-									</ChildrenList>
-								</Folder>
 								<Folder Name="Ambient_Emitters" ID="{4E716C71-E174-4F50-8E29-9A88B0F09136}" ShortID="356072458">
 									<ChildrenList>
 										<Sound Name="BAS_Crystal_Ringing" ID="{D74303EC-21B6-45FE-9CE8-03E0C053DD15}" ShortID="617439731">
@@ -7129,6 +6985,162 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
 								</Reference>
 							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="UI" ID="{C9193F03-0C7E-463C-A114-4B0F23EE9146}" ShortID="337926691">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Folder Name="UI" ID="{A54BBC8B-5C94-4072-B0D3-806BD944B75E}" ShortID="398667875">
+									<ChildrenList>
+										<Folder Name="Inventory" ID="{3FBF7FD1-D46C-4900-B410-A0048FA92471}" ShortID="655337448">
+											<ChildrenList>
+												<Sound Name="BAS_Inventory_Close" ID="{C5342CBB-044B-4DAD-820A-4043118E8AD5}" ShortID="978219809">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_Inventory_Close" ID="{C7D76377-B0D1-4DCD-AF4C-1A4A46F3F582}">
+															<Language>SFX</Language>
+															<AudioFile>UI\BAS_Inventory_Close.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="100496679"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_Inventory_Close" ID="{C7D76377-B0D1-4DCD-AF4C-1A4A46F3F582}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_Inventory_Select" ID="{3DEDF50D-5559-4008-9B92-D60CE1D5D125}" ShortID="54927997">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_Inventory_Select" ID="{4E5CCE4F-231E-413C-AF28-2A347E425691}">
+															<Language>SFX</Language>
+															<AudioFile>UI\BAS_Inventory_Select.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="671371475"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_Inventory_Select" ID="{4E5CCE4F-231E-413C-AF28-2A347E425691}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_Inventory_Open" ID="{836AE2FC-EF4E-4697-8143-D417446550BD}" ShortID="872471444">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_Inventory_Open" ID="{5300C2E5-A2D3-47D7-9035-AE7EC88F37C8}">
+															<Language>SFX</Language>
+															<AudioFile>UI\BAS_Inventory_Open.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="510867141"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_Inventory_Open" ID="{5300C2E5-A2D3-47D7-9035-AE7EC88F37C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_Inventory_Scroll" ID="{1B6AAB61-00DE-4C6B-AE20-737F7CF07C86}" ShortID="102494428">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_Inventory_Scroll" ID="{4D8503BB-D7C8-448E-A821-39B79EF6A148}">
+															<Language>SFX</Language>
+															<AudioFile>UI\BAS_Inventory_Scroll.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="107630337"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_Inventory_Scroll" ID="{4D8503BB-D7C8-448E-A821-39B79EF6A148}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Quest Roll" ID="{24B71ECC-F955-437A-A081-12F6671CC104}" ShortID="472735358">
+											<ChildrenList>
+												<Sound Name="BAS_QuestRoll_Close" ID="{92C7755F-3C10-4BAF-B294-7766220C2F93}" ShortID="776980031">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_QuestRoll_Close" ID="{4E3C53B7-C7F3-4371-93F3-DC0E7A50F5D4}">
+															<Language>SFX</Language>
+															<AudioFile>UI\BAS_QuestRoll_Close.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="963455836"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_QuestRoll_Close" ID="{4E3C53B7-C7F3-4371-93F3-DC0E7A50F5D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_QuestRoll_Open" ID="{4A0BA66A-EC8A-4C25-84CD-130F6CCF2CD7}" ShortID="986213049">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE9E5098-0BF4-4D18-9D5D-D37C5B339D3B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8EA3B418-4874-4B3A-9795-7BDFF979D940}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_QuestRoll_Open" ID="{0C2C8DF0-FD2A-4235-B64F-E04E53260D57}">
+															<Language>SFX</Language>
+															<AudioFile>UI\BAS_QuestRoll_Open.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="801837407"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_QuestRoll_Open" ID="{0C2C8DF0-FD2A-4235-B64F-E04E53260D57}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists>
