@@ -815,6 +815,7 @@
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{162F427A-DB5B-4B2F-B9E3-ACD090DEA03B}">
 													<PropertyList>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
 														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 													</PropertyList>
@@ -943,6 +944,7 @@
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{376119B8-D517-4ACD-A605-A7823FE54C60}">
 													<PropertyList>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
 														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1156,6 +1158,7 @@
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{BBDDF555-0E6F-47E2-A865-F87D27EF0FA4}">
 													<PropertyList>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
 														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1284,6 +1287,7 @@
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{072D213D-A28C-4FD5-B60F-28B03DA80018}">
 													<PropertyList>
+														<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
 														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 													</PropertyList>

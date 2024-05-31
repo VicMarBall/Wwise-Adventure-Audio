@@ -279,9 +279,6 @@
 						<Event Name="Ambient_Region_PineForest" ID="{67F82F11-5B94-4FFC-BAC9-2B9EC5D2DA74}">
 							<ChildrenList>
 								<Action Name="" ID="{6B3E7D0C-D781-4712-900D-50EB0288A519}" ShortID="983446118">
-									<PropertyList>
-										<Property Name="FadeInCurve" Type="int16" Value="7"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Forest" ID="{D572597F-A6F3-47D9-BB0F-9559DACFCB2F}" WorkUnitID="{8B507265-CA6B-4CB4-A251-2E6A757367FF}"/>
