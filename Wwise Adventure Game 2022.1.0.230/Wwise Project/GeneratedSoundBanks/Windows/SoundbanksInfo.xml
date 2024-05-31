@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{705C9D06-1A05-AB83-D2F2-0B3ADF2BAF0F}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{E8CE8172-B22A-0A37-3664-BDEC786DD7E9}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -1259,7 +1259,7 @@
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{919B2A15-39E4-268A-2979-8F40E358781D}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{141091B1-6928-7B3A-8598-AEF4C07D1D51}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -1280,7 +1280,7 @@
 				<Event Id="3408705206" Name="Ambient_Region_Desert">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
 							<MediaRefs>
 								<MediaRef Id="405155982"/>
 							</MediaRefs>
@@ -1334,7 +1334,7 @@
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{5CDB99B6-A463-E966-95FE-F012FA743FDC}">
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{799E2FB1-D60F-4903-B6FF-D906511A84AB}">
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
 			<Media>
@@ -1351,7 +1351,7 @@
 				<Event Id="808171864" Name="Ambient_Region_PineForest">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
 							<MediaRefs>
 								<MediaRef Id="349500947"/>
 							</MediaRefs>
@@ -1367,7 +1367,6 @@
 			</Events>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
-				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1705516017" Name="DayNight">
@@ -1379,7 +1378,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{36AD0833-629E-7745-9B05-000B867EC321}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{02DCB6EC-6236-08E9-02EE-CF9B5ADE46DF}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -1408,7 +1407,7 @@
 				<Event Id="2752753183" Name="Ambient_Region_Village">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="1705516017" Id="311764537"/>
 							<MediaRefs>
 								<MediaRef Id="966129763"/>
 							</MediaRefs>
@@ -1532,5 +1531,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{343078C9-FA7E-11F0-1CCE-71B7FDCBB017}</FileHash>
+	<FileHash>{7CBB0F8C-BEEE-2F7C-B5C1-7310E3067786}</FileHash>
 </SoundBanksInfo>
