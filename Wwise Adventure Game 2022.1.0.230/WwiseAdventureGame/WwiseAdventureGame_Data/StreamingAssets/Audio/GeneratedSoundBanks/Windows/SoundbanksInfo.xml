@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{2A2C4DFA-95BE-18AA-D739-30C9BFA9D175}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{970886CD-7D80-BE2F-4912-440C6D1C3DAE}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -292,10 +292,6 @@
 				<File Id="583196932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_01.wav</ShortName>
 					<CachePath>SFX/Footsteps/Run/Stone/BAS_Player_Footstep_stone_run_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="584741371" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
-					<CachePath>SFX/Destruction/BAS_Crystals_Destroy_10C4C929.wem</CachePath>
 				</File>
 				<File Id="586589436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Destruction\BAS_Destroy_Rock_03.wav</ShortName>
@@ -602,11 +598,6 @@
 						<MediaRef Id="973931500"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="448719855" Name="Destruction_Crystal_Destroy">
-					<MediaRefs>
-						<MediaRef Id="584741371"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy">
 					<MediaRefs>
 						<MediaRef Id="275180398"/>
@@ -900,6 +891,30 @@
 							<SwitchValue GroupType="Switch" GroupId="3251833556" Id="490825222"/>
 							<Children>
 								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4248645337"/>
+									<MediaRefs>
+										<MediaRef Id="993111507"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+									<MediaRefs>
+										<MediaRef Id="601839849"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714"/>
+									<MediaRefs>
+										<MediaRef Id="173853322"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="582824249"/>
+									<MediaRefs>
+										<MediaRef Id="423360461"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="442447909"/>
 									<MediaRefs>
 										<MediaRef Id="601839849"/>
@@ -911,11 +926,41 @@
 										<MediaRef Id="481385648"/>
 									</MediaRefs>
 								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
+									<MediaRefs>
+										<MediaRef Id="711204458"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2473969246"/>
+									<MediaRefs>
+										<MediaRef Id="711204458"/>
+									</MediaRefs>
+								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3251833556" Id="703486095"/>
 							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4248645337"/>
+									<MediaRefs>
+										<MediaRef Id="698009760"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+									<MediaRefs>
+										<MediaRef Id="466567491"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="582824249"/>
+									<MediaRefs>
+										<MediaRef Id="209339952"/>
+									</MediaRefs>
+								</SwitchContainer>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="442447909"/>
 									<MediaRefs>
@@ -926,6 +971,18 @@
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="3098439042"/>
 									<MediaRefs>
 										<MediaRef Id="466567491"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
+									<MediaRefs>
+										<MediaRef Id="199348745"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2473969246"/>
+									<MediaRefs>
+										<MediaRef Id="199348745"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -987,6 +1044,12 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+									<MediaRefs>
+										<MediaRef Id="38972827"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714"/>
 									<MediaRefs>
 										<MediaRef Id="536479990"/>
@@ -1012,6 +1075,12 @@
 								</SwitchContainer>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
+									<MediaRefs>
+										<MediaRef Id="199348745"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2473969246"/>
 									<MediaRefs>
 										<MediaRef Id="199348745"/>
 									</MediaRefs>
@@ -1723,5 +1792,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{551F06BF-5DE4-CF4D-4792-D570B5EE7881}</FileHash>
+	<FileHash>{9061C3B5-EDD9-51F5-F1F6-903B2507AC9E}</FileHash>
 </SoundBanksInfo>
